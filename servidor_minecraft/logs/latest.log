@@ -671,3 +671,17 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 [22:53:01] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=5, lines=0, cards=0)
 [22:53:53] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:adventure/kill_a_mob
 [22:53:53] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=6, lines=0, cards=0)
+[22:57:42] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:story/smelt_iron
+[22:57:42] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=7, lines=0, cards=0)
+[22:57:48] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:story/iron_tools
+[22:57:48] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=8, lines=0, cards=0)
+[22:59:24] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:story/obtain_armor
+[22:59:24] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=9, lines=0, cards=0)
+[23:02:31] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:story/deflect_arrow
+[23:02:31] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=10, lines=0, cards=0)
+[23:03:02] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:story/smelt_iron
+[23:03:02] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=6, lines=0, cards=0)
+[23:03:12] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:story/obtain_armor
+[23:03:12] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=7, lines=0, cards=0)
+[23:04:00] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:adventure/ol_betsy
+[23:04:00] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=8, lines=0, cards=0)
