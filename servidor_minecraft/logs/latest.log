@@ -1,77 +1,346 @@
-[19:10:42] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[19:10:42] [main/INFO]: Loading 4 mods:
-	- fabricloader 0.16.3
+[22:13:47] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.13
+[22:13:52] [main/INFO]: Loading 96 mods:
+	- architectury 9.2.14
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- coroutil 1.20.1-1.3.7
+	- fabric-api 0.92.5+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.14+1802ada577
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.66+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.6+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.4+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.13+13a40c6677
+	   |-- fabric-networking-v0 0.3.53+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.23+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.5+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.32+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabricloader 0.16.13
 	   \-- mixinextras 0.4.1
+	- flow 2.2.0+1.20.1
+	   \-- yet_another_config_lib_v3 3.6.1+1.20.1-fabric
+	        |-- com_twelvemonkeys_common_common-image 3.10.0
+	        |-- com_twelvemonkeys_common_common-io 3.10.0
+	        |-- com_twelvemonkeys_common_common-lang 3.10.0
+	        |-- com_twelvemonkeys_imageio_imageio-core 3.10.0
+	        |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0
+	        |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
+	        |-- org_quiltmc_parsers_gson 0.2.1
+	        \-- org_quiltmc_parsers_json 0.2.1
+	- forgeconfigapiport 8.0.2
+	- fzzy_config 0.6.9+1.20.1
+	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- iceberg 1.1.25
+	- immersiveui 0.3.0
 	- java 17
 	- minecraft 1.20.1
-[19:10:42] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Bingo/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[19:10:47] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:10:48] [main/INFO]: Loaded 7 recipes
-[19:10:49] [main/INFO]: Loaded 1271 advancements
-[19:10:49] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[19:10:49] [Server thread/INFO]: Loading properties
-[19:10:49] [Server thread/INFO]: Default game type: SURVIVAL
-[19:10:49] [Server thread/INFO]: Generating keypair
-[19:10:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:10:49] [Server thread/INFO]: Using epoll channel type
-[19:10:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:10:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:10:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:10:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:10:49] [Server thread/INFO]: Preparing level "world"
-[19:10:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:10:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:10:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:10:56] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:10:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[19:10:58] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:10:58] [Worker-Main-3/INFO]: Preparing spawn area: 3%
-[19:10:59] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[19:10:59] [Worker-Main-2/INFO]: Preparing spawn area: 5%
-[19:11:00] [Worker-Main-1/INFO]: Preparing spawn area: 6%
-[19:11:00] [Worker-Main-3/INFO]: Preparing spawn area: 8%
-[19:11:01] [Worker-Main-2/INFO]: Preparing spawn area: 9%
-[19:11:01] [Worker-Main-3/INFO]: Preparing spawn area: 10%
-[19:11:02] [Worker-Main-3/INFO]: Preparing spawn area: 13%
-[19:11:02] [Worker-Main-3/INFO]: Preparing spawn area: 14%
-[19:11:03] [Worker-Main-2/INFO]: Preparing spawn area: 17%
-[19:11:03] [Worker-Main-1/INFO]: Preparing spawn area: 19%
-[19:11:04] [Worker-Main-3/INFO]: Preparing spawn area: 21%
-[19:11:04] [Worker-Main-1/INFO]: Preparing spawn area: 24%
-[19:11:05] [Worker-Main-1/INFO]: Preparing spawn area: 26%
-[19:11:05] [Worker-Main-1/INFO]: Preparing spawn area: 30%
-[19:11:06] [Worker-Main-1/INFO]: Preparing spawn area: 33%
-[19:11:06] [Worker-Main-2/INFO]: Preparing spawn area: 35%
-[19:11:07] [Worker-Main-1/INFO]: Preparing spawn area: 39%
-[19:11:07] [Worker-Main-3/INFO]: Preparing spawn area: 42%
-[19:11:08] [Worker-Main-3/INFO]: Preparing spawn area: 45%
-[19:11:08] [Worker-Main-2/INFO]: Preparing spawn area: 47%
-[19:11:09] [Worker-Main-2/INFO]: Preparing spawn area: 49%
-[19:11:09] [Worker-Main-2/INFO]: Preparing spawn area: 53%
-[19:11:10] [Worker-Main-3/INFO]: Preparing spawn area: 55%
-[19:11:10] [Worker-Main-2/INFO]: Preparing spawn area: 58%
-[19:11:11] [Worker-Main-2/INFO]: Preparing spawn area: 62%
-[19:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 65%
-[19:11:12] [Worker-Main-2/INFO]: Preparing spawn area: 68%
-[19:11:12] [Worker-Main-3/INFO]: Preparing spawn area: 71%
-[19:11:13] [Worker-Main-1/INFO]: Preparing spawn area: 74%
-[19:11:13] [Worker-Main-1/INFO]: Preparing spawn area: 78%
-[19:11:14] [Worker-Main-1/INFO]: Preparing spawn area: 81%
-[19:11:14] [Worker-Main-3/INFO]: Preparing spawn area: 84%
-[19:11:15] [Worker-Main-1/INFO]: Preparing spawn area: 87%
-[19:11:15] [Worker-Main-2/INFO]: Preparing spawn area: 90%
-[19:11:16] [Worker-Main-2/INFO]: Preparing spawn area: 94%
-[19:11:16] [Worker-Main-3/INFO]: Preparing spawn area: 98%
-[19:11:17] [Server thread/INFO]: Time elapsed: 21622 ms
-[19:11:17] [Server thread/INFO]: Done (27.187s)! For help, type "help"
-[19:18:22] [Server thread/INFO]: JustMaty[/172.22.236.172:53016] logged in with entity id 248 at (169.5, 84.0, 73.5)
-[19:18:22] [Server thread/INFO]: JustMaty joined the game
-[19:19:17] [Server thread/INFO]: Elira_Ecriet[/172.22.164.237:60478] logged in with entity id 498 at (170.5, 71.0, 89.5)
-[19:19:17] [Server thread/INFO]: Elira_Ecriet joined the game
-[19:19:28] [Server thread/INFO]: [Not Secure] <JustMaty> alm
-[19:19:29] [Server thread/INFO]: [Not Secure] <JustMaty> va bien
-[19:19:32] [Server thread/INFO]: [Not Secure] <JustMaty> pica cosas y asi
-[19:19:50] [Server thread/INFO]: JustMaty has made the advancement [Monster Hunter]
-[19:20:08] [Server thread/INFO]: [Not Secure] <JustMaty> pues va bien no?
+	- modernfix 5.18.6+mc1.20.1
+	- mru 1.0.4+1.20.1+fabric
+	- octolib 0.5.0.1
+	   \-- org_yaml_snakeyaml 2.2
+	- perception 0.1.2.1
+	- pickupnotifier 8.0.0
+	- player-animator 1.0.2-rc1+1.20
+	- puzzleslib 8.1.32
+	   \-- puzzlesaccessapi 20.1.1
+	- seriousplayeranimations 1.1.1
+	- sound_physics_remastered 1.20.1-1.4.10
+	- subtle_effects 1.9.4-hotfix.1
+	- watut 1.20.1-1.2.3
+	- yet-another-minecraft-bingo 2.5.0+mc1.20.1
+	   |-- com_zaxxer_hikaricp 5.1.0
+	   |-- fabric-language-kotlin 1.13.1+kotlin.2.1.10
+	   |    |-- org_jetbrains_kotlin_kotlin-reflect 2.1.10
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.10
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.10
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.10
+	   |    |-- org_jetbrains_kotlinx_atomicfu-jvm 0.27.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.1
+	   |    |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.1
+	   |    |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |    |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.6.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.6.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.0
+	   |    \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.0
+	   |-- org_xerial_sqlite-jdbc 3.46.0.0
+	   \-- yet-another-minecraft-bingo-api 2.5.0
+[22:13:52] [main/WARN]: Found 2 non-fabric mods:
+	- explosiveenhancement-1.1.0-1.20.1-client-and-server.jar
+	- yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar
+[22:13:53] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Bingo/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[22:13:53] [main/INFO]: Compatibility level set to JAVA_16
+[22:13:53] [main/INFO]: Compatibility level set to JAVA_17
+[22:13:53] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:13:53] [main/INFO]: Loaded configuration file for ModernFix 5.18.6+mc1.20.1: 60 options available, 0 override(s) found
+[22:13:53] [main/INFO]: Applying Nashorn fix
+[22:13:53] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:13:53] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:13:53] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:13:54] [main/WARN]: Error loading class: net/minecraft/class_972 (java.lang.ClassNotFoundException: net/minecraft/class_972)
+[22:13:54] [main/WARN]: @Mixin target net.minecraft.class_972 was not found seriousplayeranimations.mixins.json:CapeRenderMixin from mod seriousplayeranimations
+[22:13:55] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22:14:01] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[22:14:02] [main/INFO]: Vanilla bootstrap took 6319 milliseconds
+[22:14:02] [main/INFO]: fabric loader environment detected
+[22:14:03] [main/INFO]: Constructing common components for pickupnotifier:main
+[22:14:03] [main/INFO]: Constructing common components for puzzleslib:main
+[22:14:03] [main/INFO]: Loading up some Serious Animations.
+[22:14:03] [main/INFO]: Starting Bingo migration runner...
+[22:14:04] [main/INFO]: Starting Bingo Server application...
+[22:14:04] [main/WARN]: Tried to register resource reload listener yet-another-minecraft-bingo:server_reload twice!
+[22:14:04] [main/INFO]: [ServerDatapackManager] isLobbyMode=true - Installing the bingo datapack in ./world/datapacks/bingo.zip
+[22:14:04] [main/INFO]: Running database migrations...
+[22:14:04] [main/INFO]: HikariPool-1 - Starting...
+[22:14:05] [main/INFO]: HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@1005364f
+[22:14:05] [main/INFO]: HikariPool-1 - Start completed.
+[22:14:05] [main/INFO]: [ConnectionFactory] Migrating database from version 6 to 6...
+[22:14:05] [main/INFO]: Running database migrations... - done in 264.541492ms!
+[22:14:05] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:14:05] [main/INFO]: Bypassed Mojang DFU
+[22:14:08] [main/INFO]: Loaded 7 recipes
+[22:14:08] [main/INFO]: Loaded 1271 advancements
+[22:14:08] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.712 ms
+[22:14:08] [Server thread/INFO]: Loading server config for pickupnotifier
+[22:14:08] [Thread-2/INFO]: Reloading server config for pickupnotifier
+[22:14:08] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[22:14:08] [Server thread/INFO]: Loading properties
+[22:14:08] [Server thread/INFO]: Default game type: SURVIVAL
+[22:14:08] [Server thread/INFO]: Generating keypair
+[22:14:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:14:08] [Server thread/INFO]: Using epoll channel type
+[22:14:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:14:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:14:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:14:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:14:09] [Server thread/INFO]: Preparing level "world"
+[22:14:09] [Server thread/INFO]: Done (0.472s)! For help, type "help"
+[22:14:09] [Server thread/WARN]: Dedicated server took 27.018 seconds to load
+[22:14:09] [Server thread/INFO]: [ScopeManager] bingo.zip datapack exists - starting with isLobbyMode=true
+[22:14:09] [Server thread/INFO]: [ScopeManager] Starting server scope...
+[22:14:09] [Server thread/INFO]: [PersistentStateManager] Reading yet-another-minecraft-bingo state from save data...
+[22:14:10] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
+[22:14:10] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 159.605815ms!
+[22:14:10] [Server thread/INFO]: [DataLoader] Reloading bingo data...
+[22:14:10] [Server thread/INFO]: [TagLoader] Reloading BINGO objective tags...
+[22:14:10] [Server thread/INFO]: [ObjectiveLoader] Reloading BINGO objectives...
+[22:14:10] [Server thread/INFO]: [TierListLoader] Reloading BINGO tier lists...
+[22:14:10] [Server thread/INFO]: [TagLoader] Reloading BINGO objective tags...
+[22:14:10] [Server thread/INFO]: [DataLoader] Reloading bingo data... - done in 302.414541ms!
+[22:14:10] [Server thread/INFO]: [DataLoader] Determining unobtainable items...
+[22:14:10] [Server thread/INFO]: [UnobtainableItemsLoader] Excluding 1 unobtainable items
+[22:14:10] [Server thread/INFO]: [DataLoader] Determining unobtainable items... - done in 31.407934ms!
+[22:14:10] [Server thread/INFO]: GameState changed: PLAYING -> PLAYING
+[22:14:11] [Server thread/INFO]: Loading offline player data for Elira_Ecriet
+[22:14:11] [Server thread/INFO]: Loading offline player data for Elira_Ecriet - done in 846.551232ms!
+[22:14:11] [Server thread/INFO]: Loading offline player data for JustMaty
+[22:14:11] [Server thread/INFO]: Loading offline player data for JustMaty - done in 36.403025ms!
+[22:14:12] [Server thread/INFO]: Re-drawing map_8 for team pink (334.000271ms)
+[22:14:12] [Server thread/INFO]: Re-drawing map_9 for team blue (1.169153ms)
+[22:14:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2813ms or 56 ticks behind
+[22:14:12] [Server thread/INFO]: Game was inactive for 1d 0h 26m 13.219785034s - updating timer
+[22:14:31] [Server thread/INFO]: JustMaty[/172.22.236.172:59579] logged in with entity id 4 at (-630.3000000119209, 65.0, 194.48883197146648)
+[22:14:31] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5458/0x000071b514db88d0):
+java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:41) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.platform.packet.IServerPacketHandlerS2C$DefaultImpls.isSupported(IServerNetworking.kt:15) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:37) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.map.CardViewService.supportsCardHud(CardViewService.kt:50) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.map.CardViewService.sendUpdatePackets(CardViewService.kt:120) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.map.BingoMapController._init_$lambda$2(BingoMapController.kt:56) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.ScopedEvents.onPlayerChannelRegister$lambda$7(ScopedEvents.kt:48) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$15(ServerEventsImpl.kt:146) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents.lambda$static$0(S2CPlayChannelEvents.java:38) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.invokeRegisterEvent(ServerPlayNetworkAddon.java:102) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.register(AbstractChanneledNetworkAddon.java:164) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.registerPendingChannels(AbstractChanneledNetworkAddon.java:72) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.<init>(ServerPlayNetworkAddon.java:50) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.minecraft.class_3244.handler$zgl001$fabric-networking-api-v1$initAddon(class_3244.java:1994) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.<init>(class_3244.java:256) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3324.method_14570(class_3324.java:190) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_33800(class_3248.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_14384(class_3248.java:118) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.redirect$zgk000$fabric-networking-api-v1$handlePlayerJoin(class_3248.java:563) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_18784(class_3248.java:68) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10754(class_2535.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3242.method_14357(class_3242.java:172) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:908) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3813(class_3176.java:283) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[22:14:31] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5458/0x000071b514db88d0):
+java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:41) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.platform.packet.IServerPacketHandlerS2C$DefaultImpls.isSupported(IServerNetworking.kt:15) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:37) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.stats.StatsSyncController._init_$lambda$4(StatsSyncController.kt:102) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.ScopedEvents.onPlayerChannelRegister$lambda$7(ScopedEvents.kt:48) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$15(ServerEventsImpl.kt:146) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents.lambda$static$0(S2CPlayChannelEvents.java:38) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.invokeRegisterEvent(ServerPlayNetworkAddon.java:102) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.register(AbstractChanneledNetworkAddon.java:164) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.registerPendingChannels(AbstractChanneledNetworkAddon.java:72) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.<init>(ServerPlayNetworkAddon.java:50) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.minecraft.class_3244.handler$zgl001$fabric-networking-api-v1$initAddon(class_3244.java:1994) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.<init>(class_3244.java:256) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3324.method_14570(class_3324.java:190) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_33800(class_3248.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_14384(class_3248.java:118) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.redirect$zgk000$fabric-networking-api-v1$handlePlayerJoin(class_3248.java:563) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_18784(class_3248.java:68) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10754(class_2535.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3242.method_14357(class_3242.java:172) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:908) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3813(class_3176.java:283) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[22:14:31] [Server thread/INFO]: JustMaty joined the game
+[22:14:34] [IO-Worker-5/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[22:14:35] [IO-Worker-6/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[22:14:35] [IO-Worker-6/INFO]: [StatsSyncController] Broadcasting 1 known gameIds to the client
+[22:14:35] [IO-Worker-8/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
+[22:14:52] [Server thread/INFO]: Elira_Ecriet[/172.22.164.237:58462] logged in with entity id 268 at (447.51399245650936, 22.0, 1.4123585895488588)
+[22:14:52] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5458/0x000071b514db88d0):
+java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:41) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.platform.packet.IServerPacketHandlerS2C$DefaultImpls.isSupported(IServerNetworking.kt:15) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:37) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.map.CardViewService.supportsCardHud(CardViewService.kt:50) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.map.CardViewService.sendUpdatePackets(CardViewService.kt:120) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.map.BingoMapController._init_$lambda$2(BingoMapController.kt:56) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.ScopedEvents.onPlayerChannelRegister$lambda$7(ScopedEvents.kt:48) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$15(ServerEventsImpl.kt:146) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents.lambda$static$0(S2CPlayChannelEvents.java:38) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.invokeRegisterEvent(ServerPlayNetworkAddon.java:102) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.register(AbstractChanneledNetworkAddon.java:164) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.registerPendingChannels(AbstractChanneledNetworkAddon.java:72) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.<init>(ServerPlayNetworkAddon.java:50) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.minecraft.class_3244.handler$zgl001$fabric-networking-api-v1$initAddon(class_3244.java:1994) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.<init>(class_3244.java:256) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3324.method_14570(class_3324.java:190) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_33800(class_3248.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_14384(class_3248.java:118) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.redirect$zgk000$fabric-networking-api-v1$handlePlayerJoin(class_3248.java:563) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_18784(class_3248.java:68) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10754(class_2535.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3242.method_14357(class_3242.java:172) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:908) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3813(class_3176.java:283) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[22:14:52] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5458/0x000071b514db88d0):
+java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:41) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.platform.packet.IServerPacketHandlerS2C$DefaultImpls.isSupported(IServerNetworking.kt:15) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:37) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.stats.StatsSyncController._init_$lambda$4(StatsSyncController.kt:102) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.ScopedEvents.onPlayerChannelRegister$lambda$7(ScopedEvents.kt:48) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$15(ServerEventsImpl.kt:146) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents.lambda$static$0(S2CPlayChannelEvents.java:38) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.invokeRegisterEvent(ServerPlayNetworkAddon.java:102) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.register(AbstractChanneledNetworkAddon.java:164) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.registerPendingChannels(AbstractChanneledNetworkAddon.java:72) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.<init>(ServerPlayNetworkAddon.java:50) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.minecraft.class_3244.handler$zgl001$fabric-networking-api-v1$initAddon(class_3244.java:1994) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.<init>(class_3244.java:256) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3324.method_14570(class_3324.java:190) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_33800(class_3248.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_14384(class_3248.java:118) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.redirect$zgk000$fabric-networking-api-v1$handlePlayerJoin(class_3248.java:563) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_18784(class_3248.java:68) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10754(class_2535.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3242.method_14357(class_3242.java:172) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:908) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3813(class_3176.java:283) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[22:14:52] [Server thread/INFO]: Elira_Ecriet joined the game
+[22:14:54] [IO-Worker-4/INFO]: [StatsSyncController] Broadcasting stats hash to player 67015e66-705d-3d8b-8d5f-5b128f0c0d94
+[22:14:55] [IO-Worker-4/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 67015e66-705d-3d8b-8d5f-5b128f0c0d94
+[22:14:55] [IO-Worker-4/INFO]: [StatsSyncController] Broadcasting 1 known gameIds to the client
+[22:15:15] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:story/upgrade_tools
+[22:15:15] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=2, lines=0, cards=0)
+[22:18:04] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:story/smelt_iron
+[22:18:04] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=3, lines=0, cards=0)
+[22:18:20] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:story/iron_tools
+[22:18:20] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=4, lines=0, cards=0)
+[22:18:42] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:story/obtain_armor
+[22:18:42] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=5, lines=0, cards=0)
+[22:19:44] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:story/lava_bucket
+[22:19:44] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=6, lines=0, cards=0)
+[22:19:46] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:story/smelt_iron
+[22:19:46] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=3, lines=0, cards=0)
+[22:20:05] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:story/obtain_armor
+[22:20:05] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=4, lines=0, cards=0)
+[22:20:31] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:story/iron_tools
+[22:20:31] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=5, lines=0, cards=0)
+[22:20:37] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:adventure/kill_a_mob
+[22:20:37] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=7, lines=0, cards=0)
+[22:20:45] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:story/deflect_arrow
+[22:20:45] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=8, lines=0, cards=0)
+[22:21:17] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:adventure/sleep_in_bed
+[22:21:17] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=9, lines=0, cards=0)
