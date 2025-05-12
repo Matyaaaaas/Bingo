@@ -344,3 +344,13 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 [22:20:45] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=8, lines=0, cards=0)
 [22:21:17] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:adventure/sleep_in_bed
 [22:21:17] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=9, lines=0, cards=0)
+[22:24:44] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:story/deflect_arrow
+[22:24:44] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=6, lines=0, cards=0)
+[22:24:52] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:adventure/kill_a_mob
+[22:24:52] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=7, lines=0, cards=0)
+[22:26:42] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:adventure/shoot_arrow
+[22:26:42] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=8, lines=0, cards=0)
+[22:31:40] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:story/lava_bucket
+[22:31:40] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=9, lines=0, cards=0)
+[22:32:03] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:story/mine_diamond
+[22:32:03] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=10, lines=0, cards=0)
