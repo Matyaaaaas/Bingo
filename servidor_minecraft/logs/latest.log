@@ -691,3 +691,87 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 [23:10:35] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=10, lines=0, cards=0)
 [23:12:57] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:husbandry/make_a_sign_glow
 [23:12:57] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=11, lines=0, cards=0)
+[23:18:40] [Server thread/WARN]: Elira_Ecriet moved too quickly! 0.07423839105786101,-12.334203621625889,-0.9529429006223324
+[23:19:32] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:story/lava_bucket
+[23:19:32] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=12, lines=0, cards=0)
+[23:22:03] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:adventure/trade
+[23:22:03] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=11, lines=0, cards=0)
+[23:24:38] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:story/lava_bucket
+[23:24:38] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=12, lines=0, cards=0)
+[23:25:48] [Server thread/INFO]: Villager class_1646['Villager'/31369, l='ServerLevel[world]', x=-416.49, y=115.00, z=360.51] died, message: 'Villager was slain by Zombie'
+[23:33:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[23:33:28] [Server thread/INFO]: Game was inactive for 2.067699626s - updating timer
+[23:34:18] [Server thread/INFO]: JustMaty lost connection: Disconnected
+[23:34:18] [Server thread/INFO]: JustMaty left the game
+[23:34:24] [Server thread/INFO]: JustMaty[/172.22.236.172:61081] logged in with entity id 41833 at (-386.5, 21.0, 345.9869222898247)
+[23:34:24] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5458/0x000071b514db88d0):
+java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:41) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.platform.packet.IServerPacketHandlerS2C$DefaultImpls.isSupported(IServerNetworking.kt:15) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:37) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.map.CardViewService.supportsCardHud(CardViewService.kt:50) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.map.CardViewService.sendUpdatePackets(CardViewService.kt:120) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.map.BingoMapController._init_$lambda$2(BingoMapController.kt:56) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.ScopedEvents.onPlayerChannelRegister$lambda$7(ScopedEvents.kt:48) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$15(ServerEventsImpl.kt:146) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents.lambda$static$0(S2CPlayChannelEvents.java:38) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.invokeRegisterEvent(ServerPlayNetworkAddon.java:102) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.register(AbstractChanneledNetworkAddon.java:164) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.registerPendingChannels(AbstractChanneledNetworkAddon.java:72) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.<init>(ServerPlayNetworkAddon.java:50) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.minecraft.class_3244.handler$zgl001$fabric-networking-api-v1$initAddon(class_3244.java:1994) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.<init>(class_3244.java:256) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3324.method_14570(class_3324.java:190) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_33800(class_3248.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_14384(class_3248.java:118) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.redirect$zgk000$fabric-networking-api-v1$handlePlayerJoin(class_3248.java:563) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_18784(class_3248.java:68) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10754(class_2535.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3242.method_14357(class_3242.java:172) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:908) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3813(class_3176.java:283) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[23:34:24] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5458/0x000071b514db88d0):
+java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:41) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.platform.packet.IServerPacketHandlerS2C$DefaultImpls.isSupported(IServerNetworking.kt:15) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:37) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.stats.StatsSyncController._init_$lambda$4(StatsSyncController.kt:102) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.ScopedEvents.onPlayerChannelRegister$lambda$7(ScopedEvents.kt:48) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$15(ServerEventsImpl.kt:146) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents.lambda$static$0(S2CPlayChannelEvents.java:38) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.invokeRegisterEvent(ServerPlayNetworkAddon.java:102) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.register(AbstractChanneledNetworkAddon.java:164) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.registerPendingChannels(AbstractChanneledNetworkAddon.java:72) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.<init>(ServerPlayNetworkAddon.java:50) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.minecraft.class_3244.handler$zgl001$fabric-networking-api-v1$initAddon(class_3244.java:1994) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.<init>(class_3244.java:256) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3324.method_14570(class_3324.java:190) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_33800(class_3248.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_14384(class_3248.java:118) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.redirect$zgk000$fabric-networking-api-v1$handlePlayerJoin(class_3248.java:563) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_18784(class_3248.java:68) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10754(class_2535.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3242.method_14357(class_3242.java:172) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:908) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3813(class_3176.java:283) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[23:34:24] [Server thread/INFO]: JustMaty joined the game
+[23:34:25] [IO-Worker-74/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[23:34:26] [IO-Worker-65/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[23:34:26] [IO-Worker-80/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
+[23:34:26] [IO-Worker-65/INFO]: [StatsSyncController] Broadcasting 2 known gameIds to the client
+[23:34:35] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:husbandry/axolotl_in_a_bucket
+[23:34:35] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=13, lines=0, cards=0)
