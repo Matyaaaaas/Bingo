@@ -685,3 +685,9 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 [23:03:12] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=7, lines=0, cards=0)
 [23:04:00] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:adventure/ol_betsy
 [23:04:00] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=8, lines=0, cards=0)
+[23:08:38] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:story/deflect_arrow
+[23:08:38] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=9, lines=0, cards=0)
+[23:10:35] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:story/iron_tools
+[23:10:35] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=10, lines=0, cards=0)
+[23:12:57] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:husbandry/make_a_sign_glow
+[23:12:57] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=11, lines=0, cards=0)
