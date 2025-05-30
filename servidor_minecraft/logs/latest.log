@@ -457,3 +457,19 @@ java.lang.NullPointerException: null
 [23:29:03] [IO-Worker-29/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
 [23:29:23] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:husbandry/plant_seed
 [23:29:23] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=6, lines=0, cards=0)
+[23:30:29] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:adventure/kill_a_mob
+[23:30:29] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=7, lines=0, cards=0)
+[23:30:41] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:story/deflect_arrow
+[23:30:41] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=8, lines=0, cards=0)
+[23:32:00] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:story/obtain_armor
+[23:32:00] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=9, lines=0, cards=0)
+[23:32:50] [Server thread/INFO]: Villager class_1646['Farmer'/8926, l='ServerLevel[world]', x=623.30, y=71.00, z=78.61] died, message: 'Farmer was slain by Zombie'
+[23:33:34] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:story/iron_tools
+[23:33:34] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=6, lines=0, cards=0)
+[23:33:46] [Server thread/INFO]: Villager class_1646['Villager'/8924, l='ServerLevel[world]', x=576.10, y=55.60, z=33.43] died, message: 'Villager was slain by Zombie'
+[23:36:59] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:story/lava_bucket
+[23:36:59] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=7, lines=0, cards=0)
+[23:37:12] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:adventure/shoot_arrow
+[23:37:12] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=10, lines=0, cards=0)
+[23:40:00] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:story/obtain_armor
+[23:40:00] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=8, lines=0, cards=0)
