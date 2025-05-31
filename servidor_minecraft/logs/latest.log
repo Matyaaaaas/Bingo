@@ -32,3 +32,90 @@ java.lang.NullPointerException: null
 [00:38:12] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=15, lines=0, cards=0)
 [00:47:18] [Server thread/WARN]: Horse (vehicle of Elira_Ecriet) moved wrongly! 0.30243402287601384
 [00:47:19] [Server thread/WARN]: Horse (vehicle of Elira_Ecriet) moved wrongly! 0.6336605867222715
+[00:53:36] [Server thread/INFO]: JustMaty lost connection: Disconnected
+[00:53:36] [Server thread/INFO]: JustMaty left the game
+[00:53:48] [Server thread/INFO]: JustMaty[/172.22.236.172:63744] logged in with entity id 50239 at (702.613380523022, 79.0, -83.4849474253648)
+[00:53:48] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5469/0x0000767590d9b650):
+java.lang.NullPointerException: null
+[00:53:48] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5469/0x0000767590d9b650):
+java.lang.NullPointerException: null
+[00:53:48] [Server thread/INFO]: JustMaty joined the game
+[00:53:49] [IO-Worker-100/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[00:53:50] [IO-Worker-100/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[00:53:50] [IO-Worker-105/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
+[00:53:50] [IO-Worker-100/INFO]: [StatsSyncController] Broadcasting 2 known gameIds to the client
+[00:55:51] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:adventure/summon_iron_golem
+[00:55:51] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=17, lines=3, cards=0)
+[00:55:51] [Server thread/INFO]: [ScoredItemCheck] Team bingo_yellow has completed their card
+[00:55:51] [Server thread/INFO]: [ScoredItemCheck] Ending the game because FirstWin was satisfied
+[00:55:51] [Server thread/INFO]: Writing game result to stats.db...
+[00:55:51] [Server thread/INFO]: Writing game result to stats.db... - done in 23.893225ms!
+[00:55:51] [Server thread/INFO]: GameState changed: PLAYING -> POSTGAME
+[00:55:52] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[00:55:52] [Server thread/INFO]:   [🐝 JustMaty] completed their card!
+[00:55:52] [Server thread/INFO]:   Game duration: 1h 40m 00s
+[00:55:52] [Server thread/INFO]:   Seed: [2676361236982041155]
+[00:55:52] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[00:55:54] [Server thread/INFO]: [ReadyController] Starting the POSTGAME timer for 600 seconds
+[00:56:08] [Server thread/INFO]: [JustMaty: Resetting the game...]
+[00:56:08] [Server thread/INFO]: Resetting worlds...
+[00:56:08] [Server thread/INFO]: [Reset] Clearing game data
+[00:56:08] [Server thread/INFO]: [Reset] Recreating worlds
+[00:56:08] [Server thread/INFO]: [Reset] Saving...
+[00:56:08] [Server thread/INFO]: [Reset] Saving... - done in 15.060514ms!
+[00:56:08] [Server thread/INFO]: [Reset] Closing minecraft:overworld...
+[00:56:08] [Server thread/INFO]: [Reset] Closing minecraft:overworld... - done in 64.706413ms!
+[00:56:08] [Server thread/INFO]: [Reset] Closing bingo:lobby...
+[00:56:08] [Server thread/INFO]: [Reset] Closing bingo:lobby... - done in 14.221807ms!
+[00:56:08] [Server thread/INFO]: [Reset] Closing minecraft:the_nether...
+[00:56:08] [Server thread/INFO]: [Reset] Closing minecraft:the_nether... - done in 16.414498ms!
+[00:56:08] [Server thread/INFO]: [Reset] Closing minecraft:the_end...
+[00:56:08] [Server thread/INFO]: [Reset] Closing minecraft:the_end... - done in 315.597us!
+[00:56:08] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
+[00:56:09] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 125.335765ms!
+[00:56:09] [Server thread/INFO]: [Reset] Loading new worlds...
+[00:56:09] [Server thread/INFO]: [Reset] Loading new worlds... - done in 35.295495ms!
+[00:56:09] [Server thread/INFO]: [Reset] Transferring game state
+[00:56:09] [Server thread/INFO]: [Reset] Teleporting players back to lobby
+[00:56:09] [Server thread/INFO]: GameState changed: POSTGAME -> PREGAME
+[00:56:09] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
+[00:56:09] [Server thread/INFO]: [CardService] Using random BINGO card seed: 2161732918471333532
+[00:56:09] [Server thread/INFO]: Set lobby spawnpoint to ([0, -18, 1], -180.0)
+[00:56:09] [Server thread/INFO]: Set menu position to ( 0.000E+0 -1.800E+1 -5.000E+0  1.000E+0)
+[00:56:09] [Server thread/INFO]: [MenuController] Spawning lobby menu at ( 0.000E+0 -1.800E+1 -5.000E+0)
+[00:56:09] [Server thread/INFO]: [MenuController] Locating team entities...
+[00:56:09] [Server thread/INFO]: [MenuController] Locating team entities... - done in 175.452703ms!
+[00:56:09] [Server thread/INFO]: Resetting worlds... - done in 577.557563ms!
+[00:56:09] [Server thread/INFO]: Re-drawing map_null for team null (7.491027ms)
+[00:56:35] [Server thread/INFO]: [Not Secure] <JustMaty> XD
+[00:56:36] [Server thread/INFO]: [Not Secure] <JustMaty> en fin
+[00:56:51] [Server thread/INFO]: Creating a map for team bingo_aqua - mapId=18
+[00:56:53] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Sword] to JustMaty]
+[00:57:01] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
+[00:57:22] [Server thread/WARN]: Elira_Ecriet moved too quickly! 1.5469877946949993,-10.61202295686213,0.4577626940257389
+[00:57:49] [Server thread/INFO]: [JustMaty: Summoned new Wither]
+[00:57:58] [Server thread/INFO]: [JustMaty: Killed 2 entities]
+[00:58:03] [Server thread/INFO]: [JustMaty: Killed 167 entities]
+[00:58:15] [Server thread/INFO]: [Not Secure] <JustMaty> un pvp para terminar
+[00:58:16] [Server thread/INFO]: [Not Secure] <JustMaty> XD
+[00:58:20] [Server thread/INFO]: [Not Secure] <JustMaty> ya me tengo que ir
+[00:58:26] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Sword] to Elira_Ecriet]
+[00:58:37] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
+[00:59:03] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Sword] to Elira_Ecriet]
+[00:59:18] [Server thread/INFO]: [JustMaty: Gave 64 [Golden Apple] to Elira_Ecriet]
+[00:59:25] [Server thread/INFO]: [JustMaty: Gave 1 [Shield] to Elira_Ecriet]
+[00:59:30] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Axe] to Elira_Ecriet]
+[00:59:34] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Sword] to JustMaty]
+[00:59:41] [Server thread/INFO]: [JustMaty: Gave 64 [Golden Apple] to JustMaty]
+[00:59:46] [Server thread/INFO]: [JustMaty: Gave 1 [Shield] to JustMaty]
+[00:59:50] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Axe] to JustMaty]
+[01:00:05] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
+[01:00:13] [Server thread/INFO]: [Not Secure] <JustMaty> XD?
+[01:00:16] [Server thread/INFO]: [Not Secure] <JustMaty> por que tenias 0 de vida
+[01:00:17] [Server thread/INFO]: [Not Secure] <JustMaty> XD
+[01:00:47] [Server thread/INFO]: [Not Secure] <JustMaty> pvp para algo te doy
+[01:00:49] [Server thread/INFO]: [Not Secure] <JustMaty> mier
+[01:00:54] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
+[01:01:16] [Server thread/INFO]: [JustMaty: Gave 64 [Golden Apple] to Elira_Ecriet]
+[01:01:28] [Server thread/INFO]: [JustMaty: Gave 50 [Birch Wood] to JustMaty]
+[01:01:34] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
