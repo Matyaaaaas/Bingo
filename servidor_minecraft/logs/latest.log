@@ -22,3 +22,11 @@ java.lang.NullPointerException: null
 [00:28:20] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=12, lines=0, cards=0)
 [00:29:24] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:adventure/shoot_arrow
 [00:29:24] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=13, lines=0, cards=0)
+[00:32:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3799ms or 75 ticks behind
+[00:32:11] [Server thread/INFO]: Game was inactive for 3.847929400s - updating timer
+[00:33:01] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:adventure/trade
+[00:33:01] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=14, lines=0, cards=0)
+[00:37:05] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:nether/distract_piglin
+[00:37:05] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=16, lines=2, cards=0)
+[00:38:12] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:husbandry/tame_an_animal
+[00:38:12] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=15, lines=0, cards=0)
