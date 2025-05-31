@@ -14,6 +14,8 @@
       "minecraft:stony_shore": "2025-05-30 23:30:37 +0000",
       "minecraft:cold_ocean": "2025-05-30 23:38:23 +0000",
       "minecraft:forest": "2025-05-30 23:15:48 +0000",
+      "minecraft:deep_dark": "2025-05-31 00:09:13 +0000",
+      "minecraft:meadow": "2025-05-31 00:05:13 +0000",
       "minecraft:plains": "2025-05-30 23:29:06 +0000"
     },
     "done": false
@@ -1473,6 +1475,12 @@
   "minecraft:husbandry/ride_a_boat_with_a_goat": {
     "criteria": {
       "ride_a_boat_with_a_goat": "2025-05-30 23:57:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-05-31 00:05:41 +0000"
     },
     "done": true
   },
