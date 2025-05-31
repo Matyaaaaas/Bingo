@@ -1,313 +1,193 @@
-[00:05:41] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:husbandry/tame_an_animal
-[00:05:41] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=15, lines=1, cards=0)
-[00:23:34] [Server thread/INFO]: JustMaty lost connection: Timed out
-[00:23:34] [Server thread/INFO]: JustMaty left the game
-[00:23:42] [Server thread/INFO]: JustMaty[/172.22.236.172:63147] logged in with entity id 36416 at (808.9148563092245, 101.0, -93.4935194131072)
-[00:23:42] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5469/0x0000767590d9b650):
-java.lang.NullPointerException: null
-[00:23:42] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5469/0x0000767590d9b650):
-java.lang.NullPointerException: null
-[00:23:42] [Server thread/INFO]: JustMaty joined the game
-[00:23:43] [IO-Worker-79/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
-[00:23:46] [IO-Worker-79/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
-[00:23:46] [IO-Worker-77/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
-[00:23:46] [IO-Worker-79/INFO]: [StatsSyncController] Broadcasting 2 known gameIds to the client
-[00:25:42] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:husbandry/make_a_sign_glow
-[00:25:42] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=9, lines=0, cards=0)
-[00:26:29] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:husbandry/fishy_business
-[00:26:29] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=10, lines=0, cards=0)
-[00:27:04] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:adventure/sleep_in_bed
-[00:27:04] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=11, lines=0, cards=0)
-[00:28:20] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:husbandry/plant_seed
-[00:28:20] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=12, lines=0, cards=0)
-[00:29:24] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:adventure/shoot_arrow
-[00:29:24] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=13, lines=0, cards=0)
-[00:32:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3799ms or 75 ticks behind
-[00:32:11] [Server thread/INFO]: Game was inactive for 3.847929400s - updating timer
-[00:33:01] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:adventure/trade
-[00:33:01] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=14, lines=0, cards=0)
-[00:37:05] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:nether/distract_piglin
-[00:37:05] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=16, lines=2, cards=0)
-[00:38:12] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:husbandry/tame_an_animal
-[00:38:12] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=15, lines=0, cards=0)
-[00:47:18] [Server thread/WARN]: Horse (vehicle of Elira_Ecriet) moved wrongly! 0.30243402287601384
-[00:47:19] [Server thread/WARN]: Horse (vehicle of Elira_Ecriet) moved wrongly! 0.6336605867222715
-[00:53:36] [Server thread/INFO]: JustMaty lost connection: Disconnected
-[00:53:36] [Server thread/INFO]: JustMaty left the game
-[00:53:48] [Server thread/INFO]: JustMaty[/172.22.236.172:63744] logged in with entity id 50239 at (702.613380523022, 79.0, -83.4849474253648)
-[00:53:48] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5469/0x0000767590d9b650):
-java.lang.NullPointerException: null
-[00:53:48] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5469/0x0000767590d9b650):
-java.lang.NullPointerException: null
-[00:53:48] [Server thread/INFO]: JustMaty joined the game
-[00:53:49] [IO-Worker-100/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
-[00:53:50] [IO-Worker-100/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
-[00:53:50] [IO-Worker-105/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
-[00:53:50] [IO-Worker-100/INFO]: [StatsSyncController] Broadcasting 2 known gameIds to the client
-[00:55:51] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:adventure/summon_iron_golem
-[00:55:51] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=17, lines=3, cards=0)
-[00:55:51] [Server thread/INFO]: [ScoredItemCheck] Team bingo_yellow has completed their card
-[00:55:51] [Server thread/INFO]: [ScoredItemCheck] Ending the game because FirstWin was satisfied
-[00:55:51] [Server thread/INFO]: Writing game result to stats.db...
-[00:55:51] [Server thread/INFO]: Writing game result to stats.db... - done in 23.893225ms!
-[00:55:51] [Server thread/INFO]: GameState changed: PLAYING -> POSTGAME
-[00:55:52] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-[00:55:52] [Server thread/INFO]:   [🐝 JustMaty] completed their card!
-[00:55:52] [Server thread/INFO]:   Game duration: 1h 40m 00s
-[00:55:52] [Server thread/INFO]:   Seed: [2676361236982041155]
-[00:55:52] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-[00:55:54] [Server thread/INFO]: [ReadyController] Starting the POSTGAME timer for 600 seconds
-[00:56:08] [Server thread/INFO]: [JustMaty: Resetting the game...]
-[00:56:08] [Server thread/INFO]: Resetting worlds...
-[00:56:08] [Server thread/INFO]: [Reset] Clearing game data
-[00:56:08] [Server thread/INFO]: [Reset] Recreating worlds
-[00:56:08] [Server thread/INFO]: [Reset] Saving...
-[00:56:08] [Server thread/INFO]: [Reset] Saving... - done in 15.060514ms!
-[00:56:08] [Server thread/INFO]: [Reset] Closing minecraft:overworld...
-[00:56:08] [Server thread/INFO]: [Reset] Closing minecraft:overworld... - done in 64.706413ms!
-[00:56:08] [Server thread/INFO]: [Reset] Closing bingo:lobby...
-[00:56:08] [Server thread/INFO]: [Reset] Closing bingo:lobby... - done in 14.221807ms!
-[00:56:08] [Server thread/INFO]: [Reset] Closing minecraft:the_nether...
-[00:56:08] [Server thread/INFO]: [Reset] Closing minecraft:the_nether... - done in 16.414498ms!
-[00:56:08] [Server thread/INFO]: [Reset] Closing minecraft:the_end...
-[00:56:08] [Server thread/INFO]: [Reset] Closing minecraft:the_end... - done in 315.597us!
-[00:56:08] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
-[00:56:09] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 125.335765ms!
-[00:56:09] [Server thread/INFO]: [Reset] Loading new worlds...
-[00:56:09] [Server thread/INFO]: [Reset] Loading new worlds... - done in 35.295495ms!
-[00:56:09] [Server thread/INFO]: [Reset] Transferring game state
-[00:56:09] [Server thread/INFO]: [Reset] Teleporting players back to lobby
-[00:56:09] [Server thread/INFO]: GameState changed: POSTGAME -> PREGAME
-[00:56:09] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
-[00:56:09] [Server thread/INFO]: [CardService] Using random BINGO card seed: 2161732918471333532
-[00:56:09] [Server thread/INFO]: Set lobby spawnpoint to ([0, -18, 1], -180.0)
-[00:56:09] [Server thread/INFO]: Set menu position to ( 0.000E+0 -1.800E+1 -5.000E+0  1.000E+0)
-[00:56:09] [Server thread/INFO]: [MenuController] Spawning lobby menu at ( 0.000E+0 -1.800E+1 -5.000E+0)
-[00:56:09] [Server thread/INFO]: [MenuController] Locating team entities...
-[00:56:09] [Server thread/INFO]: [MenuController] Locating team entities... - done in 175.452703ms!
-[00:56:09] [Server thread/INFO]: Resetting worlds... - done in 577.557563ms!
-[00:56:09] [Server thread/INFO]: Re-drawing map_null for team null (7.491027ms)
-[00:56:35] [Server thread/INFO]: [Not Secure] <JustMaty> XD
-[00:56:36] [Server thread/INFO]: [Not Secure] <JustMaty> en fin
-[00:56:51] [Server thread/INFO]: Creating a map for team bingo_aqua - mapId=18
-[00:56:53] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Sword] to JustMaty]
-[00:57:01] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[00:57:22] [Server thread/WARN]: Elira_Ecriet moved too quickly! 1.5469877946949993,-10.61202295686213,0.4577626940257389
-[00:57:49] [Server thread/INFO]: [JustMaty: Summoned new Wither]
-[00:57:58] [Server thread/INFO]: [JustMaty: Killed 2 entities]
-[00:58:03] [Server thread/INFO]: [JustMaty: Killed 167 entities]
-[00:58:15] [Server thread/INFO]: [Not Secure] <JustMaty> un pvp para terminar
-[00:58:16] [Server thread/INFO]: [Not Secure] <JustMaty> XD
-[00:58:20] [Server thread/INFO]: [Not Secure] <JustMaty> ya me tengo que ir
-[00:58:26] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Sword] to Elira_Ecriet]
-[00:58:37] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[00:59:03] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Sword] to Elira_Ecriet]
-[00:59:18] [Server thread/INFO]: [JustMaty: Gave 64 [Golden Apple] to Elira_Ecriet]
-[00:59:25] [Server thread/INFO]: [JustMaty: Gave 1 [Shield] to Elira_Ecriet]
-[00:59:30] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Axe] to Elira_Ecriet]
-[00:59:34] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Sword] to JustMaty]
-[00:59:41] [Server thread/INFO]: [JustMaty: Gave 64 [Golden Apple] to JustMaty]
-[00:59:46] [Server thread/INFO]: [JustMaty: Gave 1 [Shield] to JustMaty]
-[00:59:50] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Axe] to JustMaty]
-[01:00:05] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[01:00:13] [Server thread/INFO]: [Not Secure] <JustMaty> XD?
-[01:00:16] [Server thread/INFO]: [Not Secure] <JustMaty> por que tenias 0 de vida
-[01:00:17] [Server thread/INFO]: [Not Secure] <JustMaty> XD
-[01:00:47] [Server thread/INFO]: [Not Secure] <JustMaty> pvp para algo te doy
-[01:00:49] [Server thread/INFO]: [Not Secure] <JustMaty> mier
-[01:00:54] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[01:01:16] [Server thread/INFO]: [JustMaty: Gave 64 [Golden Apple] to Elira_Ecriet]
-[01:01:28] [Server thread/INFO]: [JustMaty: Gave 50 [Birch Wood] to JustMaty]
-[01:01:34] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[01:01:55] [Server thread/INFO]: [JustMaty: Killed Elira_Ecriet]
-[01:02:00] [Server thread/INFO]: [JustMaty: Killed Elira_Ecriet]
-[01:02:02] [Server thread/INFO]: [JustMaty: Killed Elira_Ecriet]
-[01:02:04] [Server thread/INFO]: [JustMaty: Killed Elira_Ecriet]
-[01:02:09] [Server thread/INFO]: [Not Secure] <JustMaty> dame?
-[01:02:17] [Server thread/INFO]: [Not Secure] <JustMaty> ???
-[01:02:27] [Server thread/INFO]: [Not Secure] <JustMaty> voy
-[01:02:35] [Server thread/INFO]: [JustMaty: Teleported Elira_Ecriet to -1.500000, 10000000.000000, 6.500000]
-[01:02:45] [Server thread/WARN]: Elira_Ecriet moved too quickly! 0.0,-23.084663588553667,0.0
-[01:02:47] [Server thread/INFO]: [Not Secure] <JustMaty> a ver cuando caes
-[01:03:05] [Server thread/WARN]: Elira_Ecriet moved too quickly! 0.0,-19.592744080349803,0.0
-[01:03:08] [Server thread/INFO]: [JustMaty: Gave 1 [Water Bucket] to Elira_Ecriet]
-[01:03:20] [Server thread/INFO]: [JustMaty: Teleported Elira_Ecriet to -0.500000, 200.000000, 6.500000]
-[01:03:25] [Server thread/WARN]: Elira_Ecriet moved too quickly! 0.0,-16.21856840759188,0.0
-[01:03:39] [Server thread/INFO]: [Not Secure] <JustMaty> la k
-[01:03:42] [Server thread/INFO]: [Not Secure] <JustMaty> ?
-[01:03:49] [Server thread/INFO]: [Not Secure] <JustMaty> ?????
-[01:03:59] [Server thread/INFO]: [Not Secure] <JustMaty> ah
-[01:04:08] [Server thread/INFO]: [JustMaty: Gave 64 [End Crystal] to Elira_Ecriet]
-[01:04:17] [Server thread/INFO]: [JustMaty: Gave 64 [Obsidian] to Elira_Ecriet]
-[01:04:25] [Server thread/INFO]: [Not Secure] <JustMaty> no se puede
-[01:04:26] [Server thread/INFO]: [Not Secure] <JustMaty> creo
-[01:04:28] [Server thread/INFO]: [Not Secure] <JustMaty> tambien intente
-[01:04:56] [Server thread/INFO]: [Not Secure] <JustMaty> no se pueden poner bloque
-[01:04:57] [Server thread/INFO]: [Not Secure] <JustMaty> s
-[01:05:15] [Server thread/INFO]: [Not Secure] <JustMaty> ok pero
-[01:05:16] [Server thread/INFO]: [Not Secure] <JustMaty> pvp
-[01:05:18] [Server thread/INFO]: [Not Secure] <JustMaty> en serio
-[01:05:22] [Server thread/INFO]: [Not Secure] <JustMaty> te doy elitrias y cohetes
-[01:05:25] [Server thread/INFO]: [Not Secure] <JustMaty> c_
-[01:05:28] [Server thread/INFO]: [Not Secure] <JustMaty> c:
-[01:05:36] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Sword] to Elira_Ecriet]
-[01:05:44] [Server thread/INFO]: [JustMaty: Gave 64 [Golden Apple] to Elira_Ecriet]
-[01:05:47] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Sword] to Elira_Ecriet]
-[01:05:51] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Axe] to Elira_Ecriet]
-[01:05:55] [Server thread/INFO]: [JustMaty: Gave 1 [Shield] to Elira_Ecriet]
-[01:06:00] [Server thread/INFO]: [JustMaty: Gave 1 [Lava Bucket] to Elira_Ecriet]
-[01:06:08] [Server thread/INFO]: [JustMaty: Gave 64 [Golden Apple] to Elira_Ecriet]
-[01:06:24] [Server thread/INFO]: [Not Secure] <JustMaty> te di otro stack por accidente
-[01:06:26] [Server thread/INFO]: [Not Secure] <JustMaty> quitatelos
-[01:06:27] [Server thread/INFO]: [Not Secure] <JustMaty> c:
-[01:06:36] [Server thread/INFO]: [JustMaty: Gave 64 [Golden Apple] to JustMaty]
-[01:06:42] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Sword] to JustMaty]
-[01:06:47] [Server thread/INFO]: [JustMaty: Gave 1 [Netherite Axe] to JustMaty]
-[01:06:49] [Server thread/INFO]: [JustMaty: Gave 1 [Shield] to JustMaty]
-[01:07:00] [Server thread/INFO]: [JustMaty: Set own game mode to Creative Mode]
-[01:07:19] [Server thread/INFO]: [JustMaty: Set own game mode to Survival Mode]
-[01:07:31] [Server thread/INFO]: [JustMaty: Gave 1 [Totem of Undying] to Elira_Ecriet]
-[01:07:33] [Server thread/INFO]: [JustMaty: Gave 1 [Totem of Undying] to JustMaty]
-[01:07:41] [Server thread/INFO]: [Not Secure] <JustMaty> 3
-[01:07:42] [Server thread/INFO]: [Not Secure] <JustMaty> 2
-[01:07:43] [Server thread/INFO]: [Not Secure] <JustMaty> 2
-[01:07:44] [Server thread/INFO]: [Not Secure] <JustMaty> 2
-[01:07:45] [Server thread/INFO]: [Not Secure] <JustMaty> 2
-[01:07:46] [Server thread/INFO]: [Not Secure] <JustMaty> 2
-[01:07:47] [Server thread/INFO]: [Not Secure] <JustMaty> 2
-[01:08:02] [Server thread/INFO]: [Not Secure] <JustMaty> ok
-[01:08:10] [Server thread/INFO]: [Not Secure] <JustMaty> 4
-[01:08:11] [Server thread/INFO]: [Not Secure] <JustMaty> 3
-[01:08:23] [Server thread/INFO]: [Not Secure] <JustMaty> 4
-[01:08:25] [Server thread/INFO]: [Not Secure] <JustMaty> 3
-[01:08:26] [Server thread/INFO]: [Not Secure] <JustMaty> 2
-[01:08:28] [Server thread/INFO]: [Not Secure] <JustMaty> 1
-[01:08:29] [Server thread/INFO]: [Not Secure] <JustMaty> 0
-[01:08:57] [Server thread/INFO]: [Not Secure] <JustMaty> PERO
-[01:09:01] [Server thread/INFO]: [Not Secure] <JustMaty> PERO
-[01:09:23] [Server thread/INFO]: [Not Secure] <JustMaty> again?
-[01:09:37] [Server thread/INFO]: [Not Secure] <JustMaty> the last one c:
-[01:09:45] [Server thread/INFO]: [Not Secure] <JustMaty> gracias elira ecriet
-[01:09:53] [Server thread/INFO]: [Not Secure] <JustMaty> consejos
-[01:10:00] [Server thread/INFO]: [Not Secure] <JustMaty> comete las manzanas aunque tengas mitad de vida
-[01:10:05] [Server thread/INFO]: [Not Secure] <JustMaty> usa escudo
-[01:10:09] [Server thread/INFO]: [Not Secure] <JustMaty> aunque te lo pueda romper
-[01:10:16] [Server thread/INFO]: [Not Secure] <JustMaty> y el totem tenlo en una tecla rapida
-[01:10:18] [Server thread/INFO]: [Not Secure] <JustMaty> ahora si
-[01:10:20] [Server thread/INFO]: [Not Secure] <JustMaty> 3
-[01:10:21] [Server thread/INFO]: [Not Secure] <JustMaty> 2
-[01:10:23] [Server thread/INFO]: [Not Secure] <JustMaty> 1
-[01:10:24] [Server thread/INFO]: [Not Secure] <JustMaty> 0
-[01:10:25] [Server thread/INFO]: [Not Secure] <JustMaty> c:
-[01:11:55] [Server thread/INFO]: [Not Secure] <JustMaty> criticos elirosa, criticos
-[01:11:59] [Server thread/INFO]: [Not Secure] <JustMaty> salta y pega
-[01:13:20] [Server thread/INFO]: [StatsLobbyController] Fetching summary for player 67015e66-705d-3d8b-8d5f-5b128f0c0d94...
-[01:13:20] [Server thread/INFO]: [StatsLobbyController] Finished fetching player summary!
-[01:13:20] [Server thread/WARN]: [StatsLobbyController] Could not display player stats; no armor stand found
-[01:13:30] [Server thread/INFO]: [Not Secure] <JustMaty> DxdDX
-[01:13:35] [Server thread/INFO]: [JustMaty: Teleported Elira_Ecriet to JustMaty]
-[01:13:37] [Server thread/WARN]: Elira_Ecriet moved too quickly! 0.0,-12.032610980258184,0.006317978957468995
-[01:13:42] [Server thread/INFO]: [JustMaty: Gave 1 [Elytra] to Elira_Ecriet]
-[01:13:56] [Server thread/INFO]: [JustMaty: Gave 1 [Elytra] to Elira_Ecriet]
-[01:14:03] [Server thread/INFO]: [JustMaty: Gave 64 [Firework Rocket] to Elira_Ecriet]
-[01:14:16] [Server thread/INFO]: [JustMaty: Gave 1 [Firework Rocket] to Elira_Ecriet]
-[01:14:21] [Server thread/INFO]: [Not Secure] <JustMaty> carreras de elytras
-[01:14:34] [Server thread/INFO]: [JustMaty: Gave 600 [Firework Rocket] to Elira_Ecriet]
-[01:14:40] [Server thread/INFO]: [JustMaty: Gave 600 [Firework Rocket] to JustMaty]
-[01:14:46] [Server thread/INFO]: [JustMaty: Gave 64 [Golden Apple] to Elira_Ecriet]
-[01:15:03] [Server thread/INFO]: [JustMaty: Gave 1 [Elytra] to Elira_Ecriet]
-[01:15:06] [Server thread/INFO]: [JustMaty: Gave 2 [Elytra] to JustMaty]
-[01:15:17] [Server thread/INFO]: [JustMaty: Gave 1 [Totem of Undying] to Elira_Ecriet]
-[01:15:19] [Server thread/INFO]: [Not Secure] <JustMaty> por si las dudas
-[01:15:20] [Server thread/INFO]: [Not Secure] <JustMaty> totem
-[01:15:21] [Server thread/INFO]: [Not Secure] <JustMaty> XD
-[01:15:37] [Server thread/INFO]: [StatsLobbyController] Fetching summary for player 67015e66-705d-3d8b-8d5f-5b128f0c0d94...
-[01:15:37] [Server thread/INFO]: [StatsLobbyController] Finished fetching player summary!
-[01:15:37] [Server thread/WARN]: [StatsLobbyController] Could not display player stats; no armor stand found
-[01:15:37] [Server thread/INFO]: [Not Secure] <JustMaty> dejame ver algo
-[01:15:46] [Server thread/INFO]: [JustMaty: Set own game mode to Creative Mode]
-[01:15:55] [Server thread/WARN]: Elira_Ecriet moved wrongly!
-[01:15:55] [Server thread/WARN]: Elira_Ecriet moved wrongly!
-[01:16:18] [Server thread/INFO]: [JustMaty: Teleported JustMaty to -12.500000, 2.000000, -599.500000]
-[01:16:32] [Server thread/INFO]: [JustMaty: Changed the block at -13, 2, -600]
-[01:17:12] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[01:17:21] [Server thread/INFO]: [JustMaty: Set own game mode to Survival Mode]
-[01:17:26] [Server thread/INFO]: [Not Secure] <JustMaty> por aca
-[01:17:27] [Server thread/INFO]: [Not Secure] <JustMaty> ven
-[01:17:32] [Server thread/WARN]: JustMaty moved too quickly! -16.212140722175533,-4.589488711281675,6.398127217548293
-[01:17:42] [Server thread/INFO]: [JustMaty: Teleported Elira_Ecriet to JustMaty]
-[01:17:46] [Server thread/INFO]: [Not Secure] <JustMaty> todo recto
-[01:17:50] [Server thread/INFO]: [Not Secure] <JustMaty> hay un circulito
-[01:17:52] [Server thread/INFO]: [Not Secure] <JustMaty> el que pasa por ahi gana
-[01:17:58] [Server thread/INFO]: [Not Secure] <JustMaty> 3
-[01:18:00] [Server thread/INFO]: [Not Secure] <JustMaty> 2
-[01:18:03] [Server thread/INFO]: [Not Secure] <JustMaty> 1
-[01:18:05] [Server thread/INFO]: [Not Secure] <JustMaty> 0
-[01:18:48] [Server thread/WARN]: Elira_Ecriet moved too quickly! 0.09792112995155167,-0.8557743722168429,18.569909562644284
-[01:18:57] [Server thread/INFO]: [Not Secure] <JustMaty> XDDDDDDDD
-[01:19:01] [Server thread/INFO]: [Not Secure] <JustMaty> tremendo aterrizaje
-[01:19:04] [Server thread/INFO]: [Not Secure] <JustMaty> predije el totem
-[01:19:07] [Server thread/INFO]: [Not Secure] <JustMaty> ya lo sabia
-[01:19:28] [Server thread/INFO]: [JustMaty: Gave 800 [Firework Rocket] to Elira_Ecriet]
-[01:19:32] [Server thread/INFO]: [JustMaty: Gave 10 [Totem of Undying] to Elira_Ecriet]
-[01:19:44] [Server thread/INFO]: [Not Secure] <JustMaty> desde mi perspectiva se vio bien cagado
-[01:19:45] [Server thread/INFO]: [Not Secure] <JustMaty> en fin
-[01:19:48] [Server thread/INFO]: [JustMaty: Gave 1 [Note Block] to JustMaty]
-[01:20:02] [Server thread/INFO]: [Not Secure] <JustMaty> 3
-[01:20:03] [Server thread/INFO]: [Not Secure] <JustMaty> asi
-[01:20:10] [Server thread/INFO]: [Not Secure] <JustMaty> no o sea
-[01:20:11] [Server thread/INFO]: [Not Secure] <JustMaty> pendeja
-[01:20:15] [Server thread/INFO]: [Not Secure] <JustMaty> con eso guiate el 3 2 1
-[01:20:29] [Server thread/INFO]: [Not Secure] <JustMaty> o sea
-[01:20:31] [Server thread/INFO]: [Not Secure] <JustMaty> 3
-[01:20:32] [Server thread/INFO]: [Not Secure] <JustMaty> 2
-[01:20:34] [Server thread/INFO]: [Not Secure] <JustMaty> 1
-[01:20:35] [Server thread/INFO]: [Not Secure] <JustMaty> 0
-[01:21:20] [Server thread/INFO]: [Not Secure] <JustMaty> atterizaje
-[01:21:22] [Server thread/INFO]: [Not Secure] <JustMaty> con estilo
-[01:21:32] [Server thread/INFO]: [Not Secure] <JustMaty> de nuevo
-[01:21:35] [Server thread/INFO]: [Not Secure] <JustMaty> 3
-[01:21:43] [Server thread/INFO]: [Not Secure] <JustMaty> 3
-[01:21:45] [Server thread/INFO]: [Not Secure] <JustMaty> 2
-[01:21:47] [Server thread/INFO]: [Not Secure] <JustMaty> 1
-[01:21:48] [Server thread/INFO]: [Not Secure] <JustMaty> 0
-[01:22:28] [Server thread/INFO]: [Not Secure] <JustMaty> gg
-[01:23:13] [Server thread/INFO]: [Not Secure] <JustMaty> ven pajarito
-[01:23:21] [Server thread/WARN]: Elira_Ecriet moved wrongly!
-[01:23:24] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[01:24:15] [Server thread/INFO]: [JustMaty: Gave 100 [Firework Rocket] to JustMaty]
-[01:24:24] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[01:24:48] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[01:25:11] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[01:25:34] [Server thread/INFO]: [JustMaty: Gave 400 [Firework Rocket] to JustMaty]
-[01:26:15] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[01:26:25] [Server thread/INFO]: [JustMaty: Gave 1 [Elytra] to JustMaty]
-[01:26:33] [Server thread/INFO]: [JustMaty: Gave 600 [Firework Rocket] to JustMaty]
-[01:26:35] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[01:26:55] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[01:26:58] [Server thread/INFO]: [JustMaty: Teleported Elira_Ecriet to JustMaty]
-[01:27:05] [Server thread/INFO]: [JustMaty: Teleported Elira_Ecriet to JustMaty]
-[01:27:19] [Server thread/INFO]: [JustMaty: Teleported Elira_Ecriet to JustMaty]
-[01:28:07] [Server thread/INFO]: [JustMaty: Gave 1 [Elytra] to JustMaty]
-[01:28:13] [Server thread/INFO]: [JustMaty: Gave 900 [Firework Rocket] to JustMaty]
-[01:28:15] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[01:28:36] [Server thread/INFO]: [JustMaty: Gave 1 [Elytra] to JustMaty]
-[01:28:43] [Server thread/INFO]: [JustMaty: Gave 900 [Firework Rocket] to JustMaty]
-[01:28:48] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[01:29:19] [Server thread/INFO]: [JustMaty: Gave 900 [Firework Rocket] to Elira_Ecriet]
-[01:29:22] [Server thread/INFO]: [JustMaty: Gave 1 [Elytra] to JustMaty]
-[01:29:29] [Server thread/INFO]: [JustMaty: Gave 1 [Firework Rocket] to JustMaty]
-[01:29:40] [Server thread/INFO]: [JustMaty: Gave 900 [Firework Rocket] to JustMaty]
-[01:29:49] [Server thread/INFO]: [JustMaty: Gave 1 [Enchanted Golden Apple] to JustMaty]
-[01:29:57] [Server thread/INFO]: [JustMaty: Gave 673 [Enchanted Golden Apple] to JustMaty]
-[01:30:12] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[01:30:25] [Server thread/WARN]: JustMaty moved too quickly! 8.164088856721719,-15.327566046620547,3.6084981931053335
-[01:30:26] [Server thread/INFO]: [JustMaty: Teleported Elira_Ecriet to JustMaty]
-[01:30:30] [Server thread/WARN]: Elira_Ecriet moved too quickly! -63.0,-15.0,-13.0
-[01:30:40] [Server thread/INFO]: [JustMaty: Summoned new Ender Dragon]
-[01:30:59] [Server thread/INFO]: [JustMaty: Set own game mode to Creative Mode]
-[01:31:17] [Server thread/INFO]: [JustMaty: Set own game mode to Survival Mode]
-[01:31:35] [Server thread/WARN]: Elira_Ecriet moved too quickly! 0.0,-13.136311352726551,0.0
-[01:31:41] [Server thread/WARN]: Elira_Ecriet moved too quickly! 0.0,-21.473001533247043,0.0
-[01:31:43] [Server thread/INFO]: [JustMaty: Teleported JustMaty to Elira_Ecriet]
-[01:31:46] [Server thread/INFO]: [JustMaty: Set own game mode to Creative Mode]
+[17:37:47] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.13
+[17:37:52] [main/INFO]: Loading 96 mods:
+	- architectury 9.2.14
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- coroutil 1.20.1-1.3.7
+	- fabric-api 0.92.5+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.14+1802ada577
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.66+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.6+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.4+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.13+13a40c6677
+	   |-- fabric-networking-v0 0.3.53+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.23+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.5+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.32+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabricloader 0.16.13
+	   \-- mixinextras 0.4.1
+	- flow 2.2.0+1.20.1
+	   \-- yet_another_config_lib_v3 3.6.1+1.20.1-fabric
+	        |-- com_twelvemonkeys_common_common-image 3.10.0
+	        |-- com_twelvemonkeys_common_common-io 3.10.0
+	        |-- com_twelvemonkeys_common_common-lang 3.10.0
+	        |-- com_twelvemonkeys_imageio_imageio-core 3.10.0
+	        |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0
+	        |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
+	        |-- org_quiltmc_parsers_gson 0.2.1
+	        \-- org_quiltmc_parsers_json 0.2.1
+	- forgeconfigapiport 8.0.2
+	- fzzy_config 0.6.9+1.20.1
+	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- iceberg 1.1.25
+	- immersiveui 0.3.0
+	- java 17
+	- minecraft 1.20.1
+	- modernfix 5.18.6+mc1.20.1
+	- mru 1.0.4+1.20.1+fabric
+	- octolib 0.5.0.1
+	   \-- org_yaml_snakeyaml 2.2
+	- perception 0.1.2.1
+	- pickupnotifier 8.0.0
+	- player-animator 1.0.2-rc1+1.20
+	- puzzleslib 8.1.32
+	   \-- puzzlesaccessapi 20.1.1
+	- seriousplayeranimations 1.1.1
+	- sound_physics_remastered 1.20.1-1.4.10
+	- subtle_effects 1.9.4-hotfix.1
+	- watut 1.20.1-1.2.3
+	- yet-another-minecraft-bingo 2.5.0+mc1.20.1
+	   |-- com_zaxxer_hikaricp 5.1.0
+	   |-- fabric-language-kotlin 1.13.1+kotlin.2.1.10
+	   |    |-- org_jetbrains_kotlin_kotlin-reflect 2.1.10
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.10
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.10
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.10
+	   |    |-- org_jetbrains_kotlinx_atomicfu-jvm 0.27.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.1
+	   |    |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.1
+	   |    |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |    |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.6.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.6.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.0
+	   |    \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.0
+	   |-- org_xerial_sqlite-jdbc 3.46.0.0
+	   \-- yet-another-minecraft-bingo-api 2.5.0
+[17:37:52] [main/WARN]: Found 2 non-fabric mods:
+	- explosiveenhancement-1.1.0-1.20.1-client-and-server.jar
+	- yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar
+[17:37:53] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Bingo/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:37:53] [main/INFO]: Compatibility level set to JAVA_16
+[17:37:53] [main/INFO]: Compatibility level set to JAVA_17
+[17:37:53] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:37:54] [main/INFO]: Loaded configuration file for ModernFix 5.18.6+mc1.20.1: 60 options available, 0 override(s) found
+[17:37:54] [main/INFO]: Applying Nashorn fix
+[17:37:54] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:37:54] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:37:54] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:37:54] [main/WARN]: Error loading class: net/minecraft/class_972 (java.lang.ClassNotFoundException: net/minecraft/class_972)
+[17:37:54] [main/WARN]: @Mixin target net.minecraft.class_972 was not found seriousplayeranimations.mixins.json:CapeRenderMixin from mod seriousplayeranimations
+[17:37:55] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17:38:00] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[17:38:01] [main/INFO]: Vanilla bootstrap took 5170 milliseconds
+[17:38:01] [main/INFO]: fabric loader environment detected
+[17:38:02] [main/INFO]: Constructing common components for pickupnotifier:main
+[17:38:02] [main/INFO]: Constructing common components for puzzleslib:main
+[17:38:02] [main/INFO]: Loading up some Serious Animations.
+[17:38:02] [main/INFO]: Starting Bingo migration runner...
+[17:38:03] [main/INFO]: Starting Bingo Server application...
+[17:38:03] [main/WARN]: Tried to register resource reload listener yet-another-minecraft-bingo:server_reload twice!
+[17:38:03] [main/INFO]: [ServerDatapackManager] isLobbyMode=true - Installing the bingo datapack in ./world/datapacks/bingo.zip
+[17:38:03] [main/INFO]: Running database migrations...
+[17:38:03] [main/INFO]: HikariPool-1 - Starting...
+[17:38:03] [main/INFO]: HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@6d77f597
+[17:38:03] [main/INFO]: HikariPool-1 - Start completed.
+[17:38:03] [main/INFO]: [ConnectionFactory] Migrating database from version 6 to 6...
+[17:38:03] [main/INFO]: Running database migrations... - done in 325.164665ms!
+[17:38:03] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:38:04] [main/INFO]: Bypassed Mojang DFU
+[17:38:06] [main/INFO]: Loaded 7 recipes
+[17:38:06] [main/INFO]: Loaded 1271 advancements
+[17:38:06] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 3.813 ms
+[17:38:06] [Server thread/INFO]: Loading server config for pickupnotifier
+[17:38:06] [Thread-2/INFO]: Reloading server config for pickupnotifier
+[17:38:06] [Thread-2/INFO]: Reloading server config for pickupnotifier
+[17:38:06] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[17:38:06] [Server thread/INFO]: Loading properties
+[17:38:06] [Server thread/INFO]: Default game type: SURVIVAL
+[17:38:06] [Server thread/INFO]: Generating keypair
+[17:38:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:38:07] [Server thread/INFO]: Using epoll channel type
+[17:38:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:38:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:38:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:38:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:38:07] [Server thread/INFO]: Preparing level "world"
+[17:38:07] [Server thread/INFO]: Done (0.431s)! For help, type "help"
+[17:38:07] [Server thread/WARN]: Dedicated server took 28.347 seconds to load
+[17:38:07] [Server thread/INFO]: [ScopeManager] bingo.zip datapack exists - starting with isLobbyMode=true
+[17:38:07] [Server thread/INFO]: [ScopeManager] Starting server scope...
+[17:38:07] [Server thread/INFO]: [PersistentStateManager] Reading yet-another-minecraft-bingo state from save data...
+[17:38:08] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
+[17:38:08] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 200.503191ms!
+[17:38:09] [Server thread/INFO]: [DataLoader] Reloading bingo data...
+[17:38:09] [Server thread/INFO]: [TagLoader] Reloading BINGO objective tags...
+[17:38:09] [Server thread/INFO]: [ObjectiveLoader] Reloading BINGO objectives...
+[17:38:09] [Server thread/INFO]: [TierListLoader] Reloading BINGO tier lists...
+[17:38:09] [Server thread/INFO]: [TagLoader] Reloading BINGO objective tags...
+[17:38:09] [Server thread/INFO]: [DataLoader] Reloading bingo data... - done in 620.718775ms!
+[17:38:09] [Server thread/INFO]: [DataLoader] Determining unobtainable items...
+[17:38:09] [Server thread/INFO]: [UnobtainableItemsLoader] Excluding 1 unobtainable items
+[17:38:09] [Server thread/INFO]: [DataLoader] Determining unobtainable items... - done in 29.741585ms!
+[17:38:09] [Server thread/INFO]: GameState changed: PREGAME -> PREGAME
+[17:38:09] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
+[17:38:09] [Server thread/INFO]: [CardService] Using random BINGO card seed: -5897938670654489844
+[17:38:10] [Server thread/INFO]: [MenuController] Locating spawn position...
+[17:38:10] [Server thread/INFO]: [MenuController] Locating spawn position... - done in 468.907565ms!
+[17:38:10] [Server thread/INFO]: Set lobby spawnpoint to ([0, -18, 1], -180.0)
+[17:38:10] [Server thread/INFO]: [MenuController] Locating menu position...
+[17:38:10] [Server thread/INFO]: [MenuController] Locating menu position... - done in 216.880143ms!
+[17:38:10] [Server thread/INFO]: Set menu position to ( 0.000E+0 -1.800E+1 -5.000E+0  1.000E+0)
+[17:38:10] [Server thread/INFO]: [MenuController] Spawning lobby menu at ( 0.000E+0 -1.800E+1 -5.000E+0)
+[17:38:10] [Server thread/INFO]: [MenuController] Locating team entities...
+[17:38:11] [Server thread/INFO]: [MenuController] Locating team entities... - done in 415.565535ms!
+[17:38:11] [Server thread/INFO]: Re-drawing map_null for team null (31.712822ms)
+[17:38:11] [Server thread/INFO]: Re-drawing map_18 for team aqua (1.733982ms)
+[17:38:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3636ms or 72 ticks behind
+[17:38:11] [Server thread/INFO]: Re-drawing map_null for team null (205.745108ms)
