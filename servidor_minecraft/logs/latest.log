@@ -1,2 +1,24 @@
 [00:05:41] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:husbandry/tame_an_animal
 [00:05:41] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=15, lines=1, cards=0)
+[00:23:34] [Server thread/INFO]: JustMaty lost connection: Timed out
+[00:23:34] [Server thread/INFO]: JustMaty left the game
+[00:23:42] [Server thread/INFO]: JustMaty[/172.22.236.172:63147] logged in with entity id 36416 at (808.9148563092245, 101.0, -93.4935194131072)
+[00:23:42] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5469/0x0000767590d9b650):
+java.lang.NullPointerException: null
+[00:23:42] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5469/0x0000767590d9b650):
+java.lang.NullPointerException: null
+[00:23:42] [Server thread/INFO]: JustMaty joined the game
+[00:23:43] [IO-Worker-79/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[00:23:46] [IO-Worker-79/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[00:23:46] [IO-Worker-77/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
+[00:23:46] [IO-Worker-79/INFO]: [StatsSyncController] Broadcasting 2 known gameIds to the client
+[00:25:42] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:husbandry/make_a_sign_glow
+[00:25:42] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=9, lines=0, cards=0)
+[00:26:29] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:husbandry/fishy_business
+[00:26:29] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=10, lines=0, cards=0)
+[00:27:04] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:adventure/sleep_in_bed
+[00:27:04] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=11, lines=0, cards=0)
+[00:28:20] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:husbandry/plant_seed
+[00:28:20] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=12, lines=0, cards=0)
+[00:29:24] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:adventure/shoot_arrow
+[00:29:24] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=13, lines=0, cards=0)

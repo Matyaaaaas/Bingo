@@ -1473,12 +1473,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/diamond_leggings": {
-    "criteria": {
-      "has_diamond": "2025-05-31 00:11:17 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/ride_a_boat_with_a_goat": {
     "criteria": {
       "ride_a_boat_with_a_goat": "2025-05-30 23:57:26 +0000"
@@ -1488,6 +1482,12 @@
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2025-05-31 00:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-05-31 00:11:17 +0000"
     },
     "done": true
   },
