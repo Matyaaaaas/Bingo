@@ -473,3 +473,23 @@ java.lang.NullPointerException: null
 [23:37:12] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=10, lines=0, cards=0)
 [23:40:00] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:story/obtain_armor
 [23:40:00] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=8, lines=0, cards=0)
+[23:44:09] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:adventure/trade
+[23:44:09] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=11, lines=0, cards=0)
+[23:45:41] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:adventure/ol_betsy
+[23:45:41] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=12, lines=0, cards=0)
+[23:52:37] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:story/lava_bucket
+[23:52:37] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=13, lines=0, cards=0)
+[23:57:08] [Server thread/INFO]: JustMaty lost connection: Disconnected
+[23:57:08] [Server thread/INFO]: JustMaty left the game
+[23:57:16] [Server thread/INFO]: JustMaty[/172.22.236.172:62652] logged in with entity id 21286 at (710.9818464311118, 88.0, -383.10532465157564)
+[23:57:16] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5469/0x0000767590d9b650):
+java.lang.NullPointerException: null
+[23:57:16] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5469/0x0000767590d9b650):
+java.lang.NullPointerException: null
+[23:57:16] [Server thread/INFO]: JustMaty joined the game
+[23:57:18] [IO-Worker-54/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[23:57:19] [IO-Worker-55/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[23:57:19] [IO-Worker-52/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
+[23:57:19] [IO-Worker-55/INFO]: [StatsSyncController] Broadcasting 2 known gameIds to the client
+[23:57:26] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:husbandry/ride_a_boat_with_a_goat
+[23:57:26] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=14, lines=1, cards=0)
