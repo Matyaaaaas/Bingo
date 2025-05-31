@@ -30,3 +30,5 @@ java.lang.NullPointerException: null
 [00:37:05] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=16, lines=2, cards=0)
 [00:38:12] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:husbandry/tame_an_animal
 [00:38:12] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=15, lines=0, cards=0)
+[00:47:18] [Server thread/WARN]: Horse (vehicle of Elira_Ecriet) moved wrongly! 0.30243402287601384
+[00:47:19] [Server thread/WARN]: Horse (vehicle of Elira_Ecriet) moved wrongly! 0.6336605867222715
