@@ -16,7 +16,7 @@
                 9,
                 16
             ],
-            "itemFilter": "+type=advancement -tedious -unobtainable",
+            "itemFilter": "+type=item -tedious -uncategorized -unobtainable",
             "isLockoutMode": false,
             "isInventoryMode": false,
             "isHiddenItemsMode": false,
