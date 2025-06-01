@@ -1059,3 +1059,47 @@ java.lang.NullPointerException: null
 [22:45:24] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=9, lines=0, cards=0)
 [22:45:32] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:smoker
 [22:45:32] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=9, lines=0, cards=0)
+[22:46:38] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:fletching_table
+[22:46:38] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=10, lines=0, cards=0)
+[22:46:59] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:coal
+[22:46:59] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=11, lines=0, cards=0)
+[22:47:41] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:cooked_mutton
+[22:47:41] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=10, lines=0, cards=0)
+[22:48:31] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:glass_pane
+[22:48:31] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=11, lines=0, cards=0)
+[22:49:15] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:cooked_mutton
+[22:49:15] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=12, lines=0, cards=0)
+[22:50:08] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:fletching_table
+[22:50:08] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=12, lines=1, cards=0)
+[22:51:32] [Server thread/INFO]: JustMaty lost connection: Disconnected
+[22:51:32] [Server thread/INFO]: JustMaty left the game
+[22:51:38] [Server thread/INFO]: JustMaty[/172.22.236.172:50672] logged in with entity id 34580 at (-971.2253548828409, 67.0, 30.587064095790662)
+[22:51:38] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x0000770930d6e808):
+java.lang.NullPointerException: null
+[22:51:38] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x0000770930d6e808):
+java.lang.NullPointerException: null
+[22:51:38] [Server thread/INFO]: JustMaty joined the game
+[22:51:39] [IO-Worker-69/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[22:51:41] [IO-Worker-69/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[22:51:41] [IO-Worker-72/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
+[22:51:41] [IO-Worker-69/INFO]: [StatsSyncController] Broadcasting 4 known gameIds to the client
+[22:52:15] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:loom
+[22:52:15] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=13, lines=1, cards=0)
+[22:52:26] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:glass_pane
+[22:52:26] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=13, lines=0, cards=0)
+[22:52:56] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:barrel
+[22:52:56] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=14, lines=1, cards=0)
+[22:54:29] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:loom
+[22:54:29] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=14, lines=0, cards=0)
+[22:55:04] [Server thread/INFO]: JustMaty lost connection: Disconnected
+[22:55:04] [Server thread/INFO]: JustMaty left the game
+[22:55:10] [Server thread/INFO]: JustMaty[/172.22.236.172:50722] logged in with entity id 36348 at (-963.9623063505155, 65.0, 159.26332576863027)
+[22:55:10] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x0000770930d6e808):
+java.lang.NullPointerException: null
+[22:55:10] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x0000770930d6e808):
+java.lang.NullPointerException: null
+[22:55:10] [Server thread/INFO]: JustMaty joined the game
+[22:55:11] [IO-Worker-81/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[22:55:13] [IO-Worker-81/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[22:55:13] [IO-Worker-81/INFO]: [StatsSyncController] Broadcasting 4 known gameIds to the client
+[22:55:13] [IO-Worker-80/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
