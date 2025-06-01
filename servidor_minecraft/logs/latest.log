@@ -1478,3 +1478,81 @@ java.lang.NullPointerException: null
 [23:16:12] [Server thread/INFO]: [MenuController] Locating team entities... - done in 170.558282ms!
 [23:16:12] [Server thread/INFO]: Resetting worlds... - done in 491.891817ms!
 [23:16:12] [Server thread/INFO]: Re-drawing map_null for team null (54.820237ms)
+[23:16:47] [Server thread/INFO]: [Not Secure] <JustMaty> no
+[23:16:52] [Server thread/INFO]: [Not Secure] <JustMaty> literal
+[23:16:55] [Server thread/INFO]: [Not Secure] <JustMaty> solo me faltaba la azucar
+[23:16:58] [Server thread/INFO]: [Not Secure] <JustMaty> desde hace como media hora
+[23:17:04] [Server thread/INFO]: [Not Secure] <JustMaty> pero
+[23:17:06] [Server thread/INFO]: [Not Secure] <JustMaty> me confundi
+[23:17:10] [Server thread/INFO]: [Not Secure] <JustMaty> y pense que era povlo de hueso
+[23:17:14] [Server thread/INFO]: [Not Secure] <JustMaty> me fui a tremenda mina
+[23:17:28] [Server thread/INFO]: [Not Secure] <JustMaty> y estuve peleando con 3 creepers 2 zombies y 1 esqueleto a medio cora
+[23:17:36] [Server thread/INFO]: [Not Secure] <JustMaty> tenia que matar al esqueleto para el polvo de hueso
+[23:17:44] [Server thread/INFO]: [Not Secure] <JustMaty> y al final lo consegui y me di cuentra que era con azucar
+[23:17:54] [Server thread/INFO]: [JustMaty: Killed Elira_Ecriet]
+[23:18:01] [Server thread/INFO]: Creating a map for team bingo_pink - mapId=28
+[23:18:02] [Server thread/INFO]: Creating a map for team bingo_blue - mapId=29
+[23:18:02] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[23:18:07] [Server thread/INFO]: GameState changed: PREGAME -> STARTING
+[23:18:07] [Server thread/INFO]: [SpreadPlayers] Initialized in dimension minecraft:overworld with coordinateScale=1.0, logicalHeight=384, bottomY=-64, seaLevel=63
+[23:18:07] [Server thread/INFO]: Spawning team bingo_pink near chunk (-5, -3)
+[23:18:07] [Server thread/INFO]: Spawning team bingo_blue near chunk (5, 3)
+[23:18:07] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[23:18:07] [Server thread/INFO]:   BINGO Start!
+[23:18:07] [Server thread/INFO]:   Mode: Standard
+[23:18:07] [Server thread/INFO]:   Features: PvP
+[23:18:07] [Server thread/INFO]:   Goal: Full Card [Lines]
+[23:18:07] [Server thread/INFO]:   Difficulty: 0, 0, 0, 9, 16
+[23:18:07] [Server thread/INFO]:   Filter: Items
+[23:18:07] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[23:18:08] [Server thread/INFO]: Skipping chunk (-5, -3) which contains no valid spawn locations
+[23:18:08] [Server thread/INFO]: Skipping chunk (21, 3) which contains no valid spawn locations
+[23:18:08] [Server thread/INFO]: Skipping chunk (-6, -3) which contains no valid spawn locations
+[23:18:09] [Server thread/INFO]: Skipping chunk (-7, -3) which contains no valid spawn locations
+[23:18:09] [Server thread/INFO]: Using spawn position [-121, 65, -34] for bingo_pink
+[23:18:10] [Server thread/INFO]: Using spawn position [366, 75, 50] for bingo_blue
+[23:18:10] [Server thread/INFO]: GameState changed: STARTING -> PRELOADING
+[23:18:10] [Server thread/INFO]: [SpawnPreloadingController] Pre-generating 162 chunks within a view distance of 4...
+[23:18:20] [Server thread/INFO]: [SpawnPreloadingController] Finished preloading spawn chunks in 9.977207467s
+[23:18:20] [Server thread/INFO]: GameState changed: PRELOADING -> LOADING
+[23:18:20] [Server thread/INFO]: Waiting until all players have loaded spawn terrain...
+[23:18:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3135ms or 62 ticks behind
+[23:18:23] [Server thread/INFO]: Waiting until all players have loaded spawn terrain... Done! (3.179013988s)
+[23:18:23] [Server thread/INFO]: GameState changed: LOADING -> COUNTDOWN
+[23:18:30] [Server thread/INFO]: GameState changed: COUNTDOWN -> PLAYING
+[23:18:54] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:crafting_table
+[23:18:54] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=1, lines=0, cards=0)
+[23:20:16] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:crafting_table
+[23:20:16] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=1, lines=0, cards=0)
+[23:20:30] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:oak_sign
+[23:20:30] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=2, lines=0, cards=0)
+[23:20:45] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:composter
+[23:20:45] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=3, lines=0, cards=0)
+[23:20:45] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:oak_sign
+[23:20:45] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=2, lines=0, cards=0)
+[23:20:55] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:ladder
+[23:20:55] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=4, lines=0, cards=0)
+[23:21:53] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:ladder
+[23:21:53] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=3, lines=0, cards=0)
+[23:22:13] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:composter
+[23:22:13] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=4, lines=0, cards=0)
+[23:22:15] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:chicken
+[23:22:15] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=5, lines=0, cards=0)
+[23:22:23] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:rotten_flesh
+[23:22:23] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=6, lines=0, cards=0)
+[23:23:58] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:fletching_table
+[23:23:58] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=7, lines=0, cards=0)
+[23:24:14] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:cut_sandstone_slab
+[23:24:14] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=5, lines=0, cards=0)
+[23:24:59] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:torch
+[23:24:59] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=8, lines=0, cards=0)
+[23:25:01] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:porkchop
+[23:25:01] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=6, lines=0, cards=0)
+[23:25:17] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:porkchop
+[23:25:17] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=9, lines=0, cards=0)
+[23:25:54] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:charcoal
+[23:25:54] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=7, lines=0, cards=0)
+[23:26:08] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:charcoal
+[23:26:08] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=10, lines=0, cards=0)
+[23:26:36] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:black_wool
+[23:26:36] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=11, lines=0, cards=0)
