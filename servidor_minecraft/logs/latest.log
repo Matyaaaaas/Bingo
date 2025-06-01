@@ -1433,3 +1433,48 @@ java.lang.NullPointerException: null
 [23:02:20] [IO-Worker-84/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
 [23:02:28] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:cod_bucket
 [23:02:28] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=16, lines=2, cards=0)
+[23:06:35] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:iron_sword
+[23:06:35] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=18, lines=2, cards=0)
+[23:16:03] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:sugar
+[23:16:03] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=17, lines=3, cards=0)
+[23:16:03] [Server thread/INFO]: [ScoredItemCheck] Team bingo_yellow has completed their card
+[23:16:03] [Server thread/INFO]: [ScoredItemCheck] Ending the game because FirstWin was satisfied
+[23:16:03] [Server thread/INFO]: Writing game result to stats.db...
+[23:16:03] [Server thread/INFO]: Writing game result to stats.db... - done in 21.653811ms!
+[23:16:03] [Server thread/INFO]: GameState changed: PLAYING -> POSTGAME
+[23:16:03] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[23:16:03] [Server thread/INFO]:   [🐝 JustMaty] completed their card!
+[23:16:03] [Server thread/INFO]:   Game duration: 36m 38s
+[23:16:03] [Server thread/INFO]:   Seed: [3329879307578005580]
+[23:16:03] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[23:16:10] [Server thread/INFO]: [ReadyController] Starting the POSTGAME timer for 600 seconds
+[23:16:11] [Server thread/INFO]: [JustMaty: Resetting the game...]
+[23:16:11] [Server thread/INFO]: Resetting worlds...
+[23:16:11] [Server thread/INFO]: [Reset] Clearing game data
+[23:16:11] [Server thread/INFO]: [Reset] Recreating worlds
+[23:16:11] [Server thread/INFO]: [Reset] Saving...
+[23:16:11] [Server thread/INFO]: [Reset] Saving... - done in 14.467582ms!
+[23:16:11] [Server thread/INFO]: [Reset] Closing minecraft:overworld...
+[23:16:11] [Server thread/INFO]: [Reset] Closing minecraft:overworld... - done in 51.327752ms!
+[23:16:11] [Server thread/INFO]: [Reset] Closing minecraft:the_nether...
+[23:16:11] [Server thread/INFO]: [Reset] Closing minecraft:the_nether... - done in 267.143us!
+[23:16:11] [Server thread/INFO]: [Reset] Closing minecraft:the_end...
+[23:16:11] [Server thread/INFO]: [Reset] Closing minecraft:the_end... - done in 207.848us!
+[23:16:11] [Server thread/INFO]: [Reset] Closing bingo:lobby...
+[23:16:11] [Server thread/INFO]: [Reset] Closing bingo:lobby... - done in 11.296943ms!
+[23:16:11] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
+[23:16:12] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 121.740358ms!
+[23:16:12] [Server thread/INFO]: [Reset] Loading new worlds...
+[23:16:12] [Server thread/INFO]: [Reset] Loading new worlds... - done in 14.208228ms!
+[23:16:12] [Server thread/INFO]: [Reset] Transferring game state
+[23:16:12] [Server thread/INFO]: [Reset] Teleporting players back to lobby
+[23:16:12] [Server thread/INFO]: GameState changed: POSTGAME -> PREGAME
+[23:16:12] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
+[23:16:12] [Server thread/INFO]: [CardService] Using random BINGO card seed: 5665128704732175309
+[23:16:12] [Server thread/INFO]: Set lobby spawnpoint to ([0, -18, 1], -180.0)
+[23:16:12] [Server thread/INFO]: Set menu position to ( 0.000E+0 -1.800E+1 -5.000E+0  1.000E+0)
+[23:16:12] [Server thread/INFO]: [MenuController] Spawning lobby menu at ( 0.000E+0 -1.800E+1 -5.000E+0)
+[23:16:12] [Server thread/INFO]: [MenuController] Locating team entities...
+[23:16:12] [Server thread/INFO]: [MenuController] Locating team entities... - done in 170.558282ms!
+[23:16:12] [Server thread/INFO]: Resetting worlds... - done in 491.891817ms!
+[23:16:12] [Server thread/INFO]: Re-drawing map_null for team null (54.820237ms)
