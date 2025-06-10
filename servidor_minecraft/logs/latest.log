@@ -544,3 +544,166 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 [03:16:03] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=11, lines=1, cards=0)
 [03:18:14] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:cobblestone_wall
 [03:18:14] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=12, lines=1, cards=0)
+[03:23:08] [Server thread/INFO]: [ScoredItemCheck] pekilemo got yet-another-minecraft-bingo:challenge/many_leather
+[03:23:08] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_blue: TeamScore(items=13, lines=1, cards=0)
+[03:23:30] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:birch_hanging_sign
+[03:23:30] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=11, lines=1, cards=0)
+[03:25:20] [Server thread/INFO]: [ScoredItemCheck] JustMaty got yet-another-minecraft-bingo:challenge/many_clay_balls
+[03:25:20] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=12, lines=2, cards=0)
+[03:25:20] [Server thread/INFO]: [ScoredItemCheck] Team bingo_yellow has completed their card
+[03:25:20] [Server thread/INFO]: [ScoredItemCheck] Ending the game because FirstWin was satisfied
+[03:25:20] [Server thread/INFO]: Writing game result to stats.db...
+[03:25:20] [Server thread/INFO]: Writing game result to stats.db... - done in 29.915438ms!
+[03:25:20] [Server thread/INFO]: GameState changed: PLAYING -> POSTGAME
+[03:25:20] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[03:25:20] [Server thread/INFO]:   [🐝 JustMaty] completed their card!
+[03:25:20] [Server thread/INFO]:   Game duration: 16m 50s
+[03:25:20] [Server thread/INFO]:   Seed: [7819982551461522470]
+[03:25:20] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[03:25:27] [Server thread/INFO]: [ReadyController] Starting the POSTGAME timer for 600 seconds
+[03:25:28] [Server thread/INFO]: [JustMaty: Resetting the game...]
+[03:25:28] [Server thread/INFO]: Resetting worlds...
+[03:25:28] [Server thread/INFO]: [Reset] Clearing game data
+[03:25:28] [Server thread/INFO]: [Reset] Recreating worlds
+[03:25:28] [Server thread/INFO]: [Reset] Saving...
+[03:25:28] [Server thread/INFO]: [Reset] Saving... - done in 16.965146ms!
+[03:25:28] [Server thread/INFO]: [Reset] Closing minecraft:overworld...
+[03:25:28] [Server thread/INFO]: [Reset] Closing minecraft:overworld... - done in 34.670163ms!
+[03:25:28] [Server thread/INFO]: [Reset] Closing minecraft:the_nether...
+[03:25:28] [Server thread/INFO]: [Reset] Closing minecraft:the_nether... - done in 397.232us!
+[03:25:28] [Server thread/INFO]: [Reset] Closing bingo:lobby...
+[03:25:28] [Server thread/INFO]: [Reset] Closing bingo:lobby... - done in 10.702256ms!
+[03:25:28] [Server thread/INFO]: [Reset] Closing minecraft:the_end...
+[03:25:28] [Server thread/INFO]: [Reset] Closing minecraft:the_end... - done in 174.505us!
+[03:25:28] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
+[03:25:28] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 128.611820ms!
+[03:25:28] [Server thread/INFO]: [Reset] Loading new worlds...
+[03:25:28] [Server thread/INFO]: [Reset] Loading new worlds... - done in 21.962073ms!
+[03:25:28] [Server thread/INFO]: [Reset] Transferring game state
+[03:25:28] [Server thread/INFO]: [Reset] Teleporting players back to lobby
+[03:25:28] [Server thread/INFO]: GameState changed: POSTGAME -> PREGAME
+[03:25:28] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
+[03:25:28] [Server thread/INFO]: [CardService] Using random BINGO card seed: 5855949334595091994
+[03:25:28] [Server thread/INFO]: Set lobby spawnpoint to ([0, -18, 1], -180.0)
+[03:25:28] [Server thread/INFO]: Set menu position to ( 0.000E+0 -1.800E+1 -5.000E+0  1.000E+0)
+[03:25:28] [Server thread/INFO]: [MenuController] Spawning lobby menu at ( 0.000E+0 -1.800E+1 -5.000E+0)
+[03:25:28] [Server thread/INFO]: [MenuController] Locating team entities...
+[03:25:28] [Server thread/INFO]: [MenuController] Locating team entities... - done in 224.213649ms!
+[03:25:28] [Server thread/INFO]: Resetting worlds... - done in 540.077594ms!
+[03:25:28] [Server thread/INFO]: Re-drawing map_null for team null (145.081678ms)
+[03:25:32] [Server thread/INFO]: [Not Secure] <pekilemo> gg
+[03:25:35] [Server thread/INFO]: [Not Secure] <pekilemo> vieja
+[03:25:35] [Server thread/INFO]: [Not Secure] <JustMaty> ggs
+[03:25:44] [Server thread/INFO]: [Not Secure] <pekilemo> no encontraba mar y no sabia que era arcilla xdd
+[03:25:50] [Server thread/INFO]: [Not Secure] <JustMaty> x2
+[03:25:54] [Server thread/INFO]: [Not Secure] <JustMaty> en fin
+[03:25:54] [Server thread/INFO]: [Not Secure] <pekilemo> estaba mas pensando en el alga
+[03:25:55] [Server thread/INFO]: [Not Secure] <JustMaty> me retiro
+[03:25:58] [Server thread/INFO]: [Not Secure] <JustMaty> ya le entendio?
+[03:26:01] [Server thread/INFO]: Creating a map for team bingo_pink - mapId=34
+[03:26:06] [Server thread/INFO]: [StatsLobbyController] Fetching summary for player 0e5fd65d-1792-359b-a8e8-3e828b9ffa63...
+[03:26:06] [Server thread/INFO]: [StatsLobbyController] Finished fetching player summary!
+[03:26:15] [Server thread/INFO]: [Not Secure] <pekilemo> otra??
+[03:26:18] [Server thread/INFO]: [Not Secure] <pekilemo> :P
+[03:26:20] [Server thread/INFO]: [Not Secure] <pekilemo> ultima
+[03:26:21] [Worker-Main-3/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@37abb232[id=0e5fd65d-1792-359b-a8e8-3e828b9ffa63,name=pekilemo,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:119) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:91) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:152) ~[authlib-4.0.43.jar:?]
+	at net.minecraft.class_2631.method_37469(class_2631.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2631.method_37466(class_2631.java:153) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:288) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:314) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:484) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1465) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1069) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:244) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:826) ~[?:?]
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:761) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1725) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:96) ~[authlib-4.0.43.jar:?]
+	... 12 more
+[03:26:22] [Server thread/INFO]: [Not Secure] <JustMaty> va
+[03:26:25] [Server thread/INFO]: [Not Secure] <JustMaty> ah
+[03:26:26] [Server thread/INFO]: [Not Secure] <JustMaty> hay un modo
+[03:26:28] [Server thread/INFO]: [Not Secure] <pekilemo> me gusto el juego
+[03:26:29] [Server thread/INFO]: [Not Secure] <JustMaty> que es con logros
+[03:26:39] [Server thread/INFO]: [Not Secure] <JustMaty> o sea en lugar de items son logros
+[03:26:48] [Server thread/INFO]: [Not Secure] <pekilemo> daleh nms
+[03:26:57] [Server thread/INFO]: [Not Secure] <JustMaty> items
+[03:26:59] [Server thread/INFO]: Creating a map for team bingo_yellow - mapId=35
+[03:26:59] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[03:27:03] [Server thread/INFO]: GameState changed: PREGAME -> STARTING
+[03:27:03] [Server thread/INFO]: [SpreadPlayers] Initialized in dimension minecraft:overworld with coordinateScale=1.0, logicalHeight=384, bottomY=-64, seaLevel=63
+[03:27:03] [Server thread/INFO]: Spawning team bingo_pink near chunk (0, -6)
+[03:27:03] [Server thread/INFO]: Spawning team bingo_yellow near chunk (0, 6)
+[03:27:03] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[03:27:03] [Server thread/INFO]:   BINGO Start!
+[03:27:03] [Server thread/INFO]:   Mode: Standard
+[03:27:03] [Server thread/INFO]:   Features: PvP
+[03:27:03] [Server thread/INFO]:   Goal: 2 lines
+[03:27:03] [Server thread/INFO]:   Difficulty: 0, 0, 0, 9, 16
+[03:27:03] [Server thread/INFO]:   Filter: Items
+[03:27:03] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[03:27:04] [Server thread/INFO]: Skipping chunk (52, -6) which contains no valid spawn locations
+[03:27:04] [Server thread/INFO]: Skipping chunk (128, 6) which contains no valid spawn locations
+[03:27:07] [Server thread/INFO]: Skipping chunk (73, -6) which contains no valid spawn locations
+[03:27:08] [Server thread/INFO]: Using spawn position [2066, 72, 101] for bingo_yellow
+[03:27:09] [Server thread/INFO]: Using spawn position [1188, 65, -82] for bingo_pink
+[03:27:09] [Server thread/INFO]: GameState changed: STARTING -> PRELOADING
+[03:27:09] [Server thread/INFO]: [SpawnPreloadingController] Pre-generating 162 chunks within a view distance of 4...
+[03:27:10] [Server thread/INFO]: [Not Secure] <JustMaty> por cierto si me escribias no podia ver
+[03:27:14] [Server thread/INFO]: [Not Secure] <JustMaty> tienes que usar el /msg
+[03:27:19] [Server thread/INFO]: [SpawnPreloadingController] Finished preloading spawn chunks in 10.794556936s
+[03:27:19] [Server thread/INFO]: GameState changed: PRELOADING -> LOADING
+[03:27:19] [Server thread/INFO]: Waiting until all players have loaded spawn terrain...
+[03:27:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3365ms or 67 ticks behind
+[03:27:23] [Server thread/INFO]: Waiting until all players have loaded spawn terrain... Done! (3.395132734s)
+[03:27:23] [Server thread/INFO]: GameState changed: LOADING -> COUNTDOWN
+[03:27:30] [Server thread/INFO]: GameState changed: COUNTDOWN -> PLAYING
+[03:27:54] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:chest
+[03:27:54] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=1, lines=0, cards=0)
+[03:28:21] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:gravel
+[03:28:21] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=1, lines=0, cards=0)
+[03:28:22] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:flint
+[03:28:22] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=2, lines=0, cards=0)
+[03:28:50] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:cartography_table
+[03:28:50] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=2, lines=0, cards=0)
+[03:29:11] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:wheat_seeds
+[03:29:11] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=3, lines=0, cards=0)
+[03:29:24] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:sand
+[03:29:24] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=4, lines=0, cards=0)
+[03:29:34] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:wheat_seeds
+[03:29:34] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=3, lines=0, cards=0)
+[03:30:10] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:glass
+[03:30:10] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=5, lines=0, cards=0)
+[03:30:30] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:poppy
+[03:30:30] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=6, lines=0, cards=0)
+[03:30:31] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:stripped_oak_wood
+[03:30:31] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=4, lines=0, cards=0)
+[03:30:53] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:gravel
+[03:30:53] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=5, lines=0, cards=0)
+[03:31:14] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:flint
+[03:31:14] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=6, lines=0, cards=0)
+[03:31:19] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:ink_sac
+[03:31:19] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=7, lines=0, cards=0)
