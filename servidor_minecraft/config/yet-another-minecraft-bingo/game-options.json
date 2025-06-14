@@ -7,7 +7,7 @@
         {
             "goal": {
                 "type": "lines",
-                "lines": 3
+                "lines": 11
             },
             "itemDistribution": [
                 0,
@@ -18,7 +18,7 @@
             ],
             "itemFilter": "+type=item -tedious -uncategorized -unobtainable",
             "isLockoutMode": false,
-            "isInventoryMode": false,
+            "isInventoryMode": true,
             "isHiddenItemsMode": false,
             "isConsumeItemsMode": false
         }
