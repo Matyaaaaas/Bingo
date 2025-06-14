@@ -6,8 +6,8 @@
     "cards": [
         {
             "goal": {
-                "type": "lines",
-                "lines": 11
+                "type": "items",
+                "items": 25
             },
             "itemDistribution": [
                 0,
@@ -17,8 +17,8 @@
                 16
             ],
             "itemFilter": "+type=item -tedious -uncategorized -unobtainable",
-            "isLockoutMode": false,
-            "isInventoryMode": true,
+            "isLockoutMode": true,
+            "isInventoryMode": false,
             "isHiddenItemsMode": false,
             "isConsumeItemsMode": false
         }
@@ -32,7 +32,7 @@
     "isNightVision": false,
     "isUnlockRecipes": true,
     "isPvpEnabled": true,
-    "isKeepInventory": false,
+    "isKeepInventory": true,
     "spawnDimension": "minecraft:overworld",
     "spawnDistance": 20,
     "showRemainingTime": true,
