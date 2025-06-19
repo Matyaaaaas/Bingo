@@ -1,5 +1,5 @@
-[02:27:10] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.13
-[02:27:11] [main/INFO]: Loading 96 mods:
+[01:20:12] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.13
+[01:20:13] [main/INFO]: Loading 96 mods:
 	- architectury 9.2.14
 	- cloth-config 11.1.136
 	   \-- cloth-basic-math 0.6.1
@@ -109,89 +109,237 @@
 	   |    \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.0
 	   |-- org_xerial_sqlite-jdbc 3.46.0.0
 	   \-- yet-another-minecraft-bingo-api 2.5.0
-[02:27:11] [main/WARN]: Found 2 non-fabric mods:
+[01:20:13] [main/WARN]: Found 2 non-fabric mods:
 	- explosiveenhancement-1.1.0-1.20.1-client-and-server.jar
 	- yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar
-[02:27:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Bingo/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[02:27:11] [main/INFO]: Compatibility level set to JAVA_16
-[02:27:11] [main/INFO]: Compatibility level set to JAVA_17
-[02:27:12] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:27:12] [main/INFO]: Loaded configuration file for ModernFix 5.18.6+mc1.20.1: 60 options available, 0 override(s) found
-[02:27:12] [main/INFO]: Applying Nashorn fix
-[02:27:12] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:27:12] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:27:12] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:27:12] [main/WARN]: Error loading class: net/minecraft/class_972 (java.lang.ClassNotFoundException: net/minecraft/class_972)
-[02:27:12] [main/WARN]: @Mixin target net.minecraft.class_972 was not found seriousplayeranimations.mixins.json:CapeRenderMixin from mod seriousplayeranimations
-[02:27:12] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[02:27:17] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[02:27:17] [main/INFO]: Vanilla bootstrap took 4352 milliseconds
-[02:27:17] [main/INFO]: fabric loader environment detected
-[02:27:18] [main/INFO]: Constructing common components for pickupnotifier:main
-[02:27:18] [main/INFO]: Constructing common components for puzzleslib:main
-[02:27:18] [main/INFO]: Loading up some Serious Animations.
-[02:27:18] [main/INFO]: Starting Bingo migration runner...
-[02:27:19] [main/INFO]: Starting Bingo Server application...
-[02:27:19] [main/WARN]: Tried to register resource reload listener yet-another-minecraft-bingo:server_reload twice!
-[02:27:19] [main/INFO]: [ServerDatapackManager] isLobbyMode=true - Installing the bingo datapack in ./world/datapacks/bingo.zip
-[02:27:19] [main/INFO]: Running database migrations...
-[02:27:19] [main/INFO]: HikariPool-1 - Starting...
-[02:27:19] [main/INFO]: HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@77b7cc64
-[02:27:19] [main/INFO]: HikariPool-1 - Start completed.
-[02:27:19] [main/INFO]: [ConnectionFactory] Migrating database from version 6 to 6...
-[02:27:19] [main/INFO]: Running database migrations... - done in 135.098297ms!
-[02:27:19] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:27:19] [main/INFO]: Bypassed Mojang DFU
-[02:27:21] [main/INFO]: Loaded 7 recipes
-[02:27:21] [main/INFO]: Loaded 1271 advancements
-[02:27:21] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.741 ms
-[02:27:21] [Server thread/INFO]: Loading server config for pickupnotifier
-[02:27:21] [Thread-2/INFO]: Reloading server config for pickupnotifier
-[02:27:21] [Thread-2/INFO]: Reloading server config for pickupnotifier
-[02:27:21] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[02:27:21] [Server thread/INFO]: Loading properties
-[02:27:21] [Server thread/INFO]: Default game type: SURVIVAL
-[02:27:21] [Server thread/INFO]: Generating keypair
-[02:27:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:27:22] [Server thread/INFO]: Using epoll channel type
-[02:27:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:27:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:27:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:27:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:27:22] [Server thread/INFO]: Preparing level "world"
-[02:27:22] [Server thread/INFO]: Done (0.451s)! For help, type "help"
-[02:27:22] [Server thread/WARN]: Dedicated server took 12.911 seconds to load
-[02:27:22] [Server thread/INFO]: [ScopeManager] bingo.zip datapack exists - starting with isLobbyMode=true
-[02:27:22] [Server thread/INFO]: [ScopeManager] Starting server scope...
-[02:27:22] [Server thread/INFO]: [PersistentStateManager] Reading yet-another-minecraft-bingo state from save data...
-[02:27:22] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
-[02:27:23] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 153.164662ms!
-[02:27:23] [Server thread/INFO]: [DataLoader] Reloading bingo data...
-[02:27:23] [Server thread/INFO]: [TagLoader] Reloading BINGO objective tags...
-[02:27:23] [Server thread/INFO]: [ObjectiveLoader] Reloading BINGO objectives...
-[02:27:23] [Server thread/INFO]: [TierListLoader] Reloading BINGO tier lists...
-[02:27:23] [Server thread/INFO]: [TagLoader] Reloading BINGO objective tags...
-[02:27:23] [Server thread/INFO]: [DataLoader] Reloading bingo data... - done in 229.135452ms!
-[02:27:23] [Server thread/INFO]: [DataLoader] Determining unobtainable items...
-[02:27:23] [Server thread/INFO]: [UnobtainableItemsLoader] Excluding 1 unobtainable items
-[02:27:23] [Server thread/INFO]: [DataLoader] Determining unobtainable items... - done in 25.900113ms!
-[02:27:23] [Server thread/INFO]: GameState changed: PREGAME -> PREGAME
-[02:27:23] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
-[02:27:23] [Server thread/INFO]: [CardService] Using random BINGO card seed: -5601500644923685361
-[02:27:23] [Server thread/INFO]: [MenuController] Locating spawn position...
-[02:27:24] [Server thread/INFO]: [MenuController] Locating spawn position... - done in 330.136817ms!
-[02:27:24] [Server thread/INFO]: Set lobby spawnpoint to ([0, -18, 1], -180.0)
-[02:27:24] [Server thread/INFO]: [MenuController] Locating menu position...
-[02:27:24] [Server thread/INFO]: [MenuController] Locating menu position... - done in 194.545318ms!
-[02:27:24] [Server thread/INFO]: Set menu position to ( 0.000E+0 -1.800E+1 -5.000E+0  1.000E+0)
-[02:27:24] [Server thread/INFO]: [MenuController] Spawning lobby menu at ( 0.000E+0 -1.800E+1 -5.000E+0)
-[02:27:24] [Server thread/INFO]: [MenuController] Locating team entities...
-[02:27:24] [Server thread/INFO]: [MenuController] Locating team entities... - done in 362.163135ms!
-[02:27:24] [Server thread/INFO]: Re-drawing map_null for team null (22.808564ms)
-[02:27:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2227ms or 44 ticks behind
-[02:27:25] [Server thread/INFO]: Re-drawing map_null for team null (127.499725ms)
-[02:28:57] [Server thread/INFO]: JustMaty[/172.22.236.172:55573] logged in with entity id 477 at (14.528121674182087, -7.0, -30.655771083466828)
-[02:28:57] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5435/0x00007c4e98d8e808):
+[01:20:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Bingo/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:20:13] [main/INFO]: Compatibility level set to JAVA_16
+[01:20:13] [main/INFO]: Compatibility level set to JAVA_17
+[01:20:13] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:20:13] [main/INFO]: Loaded configuration file for ModernFix 5.18.6+mc1.20.1: 60 options available, 0 override(s) found
+[01:20:13] [main/INFO]: Applying Nashorn fix
+[01:20:13] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:20:13] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:20:13] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:20:14] [main/WARN]: Error loading class: net/minecraft/class_972 (java.lang.ClassNotFoundException: net/minecraft/class_972)
+[01:20:14] [main/WARN]: @Mixin target net.minecraft.class_972 was not found seriousplayeranimations.mixins.json:CapeRenderMixin from mod seriousplayeranimations
+[01:20:14] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01:20:18] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[01:20:18] [main/INFO]: Vanilla bootstrap took 4065 milliseconds
+[01:20:19] [main/INFO]: fabric loader environment detected
+[01:20:19] [main/INFO]: Constructing common components for pickupnotifier:main
+[01:20:19] [main/INFO]: Constructing common components for puzzleslib:main
+[01:20:19] [main/INFO]: Loading up some Serious Animations.
+[01:20:20] [main/INFO]: Starting Bingo migration runner...
+[01:20:20] [main/INFO]: Starting Bingo Server application...
+[01:20:20] [main/WARN]: Tried to register resource reload listener yet-another-minecraft-bingo:server_reload twice!
+[01:20:20] [main/INFO]: [ServerDatapackManager] isLobbyMode=true - Installing the bingo datapack in ./world/datapacks/bingo.zip
+[01:20:20] [main/INFO]: Running database migrations...
+[01:20:20] [main/INFO]: HikariPool-1 - Starting...
+[01:20:20] [main/INFO]: HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@5699119e
+[01:20:20] [main/INFO]: HikariPool-1 - Start completed.
+[01:20:20] [main/INFO]: [ConnectionFactory] Migrating database from version 6 to 6...
+[01:20:20] [main/INFO]: Running database migrations... - done in 148.137911ms!
+[01:20:20] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:20:20] [main/INFO]: Bypassed Mojang DFU
+[01:20:22] [main/INFO]: Loaded 7 recipes
+[01:20:23] [main/INFO]: Loaded 1271 advancements
+[01:20:23] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.836 ms
+[01:20:23] [Server thread/INFO]: Loading server config for pickupnotifier
+[01:20:23] [Thread-2/INFO]: Reloading server config for pickupnotifier
+[01:20:23] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[01:20:23] [Server thread/INFO]: Loading properties
+[01:20:23] [Server thread/INFO]: Default game type: SURVIVAL
+[01:20:23] [Server thread/INFO]: Generating keypair
+[01:20:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:20:23] [Server thread/INFO]: Using epoll channel type
+[01:20:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:20:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:20:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:20:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:20:23] [Server thread/INFO]: Preparing level "world"
+[01:20:24] [Server thread/INFO]: Done (0.436s)! For help, type "help"
+[01:20:24] [Server thread/WARN]: Dedicated server took 12.79 seconds to load
+[01:20:24] [Server thread/INFO]: [ScopeManager] bingo.zip datapack exists - starting with isLobbyMode=true
+[01:20:24] [Server thread/INFO]: [ScopeManager] Starting server scope...
+[01:20:24] [Server thread/INFO]: [PersistentStateManager] Reading yet-another-minecraft-bingo state from save data...
+[01:20:24] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
+[01:20:24] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 184.405715ms!
+[01:20:24] [Server thread/INFO]: [DataLoader] Reloading bingo data...
+[01:20:24] [Server thread/INFO]: [TagLoader] Reloading BINGO objective tags...
+[01:20:24] [Server thread/INFO]: [ObjectiveLoader] Reloading BINGO objectives...
+[01:20:24] [Server thread/INFO]: [TierListLoader] Reloading BINGO tier lists...
+[01:20:24] [Server thread/INFO]: [TagLoader] Reloading BINGO objective tags...
+[01:20:24] [Server thread/INFO]: [DataLoader] Reloading bingo data... - done in 249.479266ms!
+[01:20:24] [Server thread/INFO]: [DataLoader] Determining unobtainable items...
+[01:20:24] [Server thread/INFO]: [UnobtainableItemsLoader] Excluding 1 unobtainable items
+[01:20:24] [Server thread/INFO]: [DataLoader] Determining unobtainable items... - done in 29.636685ms!
+[01:20:24] [Server thread/INFO]: GameState changed: PREGAME -> PREGAME
+[01:20:24] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
+[01:20:24] [Server thread/INFO]: [CardService] Using random BINGO card seed: 130125063487582389
+[01:20:25] [Server thread/INFO]: [MenuController] Locating spawn position...
+[01:20:25] [Server thread/INFO]: [MenuController] Locating spawn position... - done in 319.245669ms!
+[01:20:25] [Server thread/INFO]: Set lobby spawnpoint to ([0, -18, 1], -180.0)
+[01:20:25] [Server thread/INFO]: [MenuController] Locating menu position...
+[01:20:25] [Server thread/INFO]: [MenuController] Locating menu position... - done in 161.879660ms!
+[01:20:25] [Server thread/INFO]: Set menu position to ( 0.000E+0 -1.800E+1 -5.000E+0  1.000E+0)
+[01:20:25] [Server thread/INFO]: [MenuController] Spawning lobby menu at ( 0.000E+0 -1.800E+1 -5.000E+0)
+[01:20:25] [Server thread/INFO]: [MenuController] Locating team entities...
+[01:20:26] [Server thread/INFO]: [MenuController] Locating team entities... - done in 342.941558ms!
+[01:20:26] [Server thread/INFO]: Re-drawing map_null for team null (96.628490ms)
+[01:20:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2337ms or 46 ticks behind
+[01:20:26] [Server thread/INFO]: Re-drawing map_null for team null (137.723917ms)
+[01:21:21] [Server thread/INFO]: pekilemo[/172.22.232.48:56557] logged in with entity id 477 at (-7.779110337990561, -13.0, 5.167815188403483)
+[01:21:21] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
+java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:41) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.platform.packet.IServerPacketHandlerS2C$DefaultImpls.isSupported(IServerNetworking.kt:15) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:37) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.map.CardViewService.supportsCardHud(CardViewService.kt:50) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.infobook.InfoBookService.getSettingsPage(InfoBookService.kt:137) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.infobook.InfoBookService.updateBookItem(InfoBookService.kt:218) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.infobook.InfoBookService.updateBookItem(InfoBookService.kt:228) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.infobook.InfoBookController._init_$lambda$2(InfoBookController.kt:49) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.ScopedEvents.onPlayerChannelRegister$lambda$7(ScopedEvents.kt:48) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$15(ServerEventsImpl.kt:146) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents.lambda$static$0(S2CPlayChannelEvents.java:38) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.invokeRegisterEvent(ServerPlayNetworkAddon.java:102) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.register(AbstractChanneledNetworkAddon.java:164) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.registerPendingChannels(AbstractChanneledNetworkAddon.java:72) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.<init>(ServerPlayNetworkAddon.java:50) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.minecraft.class_3244.handler$zgl001$fabric-networking-api-v1$initAddon(class_3244.java:1994) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.<init>(class_3244.java:256) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3324.method_14570(class_3324.java:190) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_33800(class_3248.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_14384(class_3248.java:118) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.redirect$zgk000$fabric-networking-api-v1$handlePlayerJoin(class_3248.java:563) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_18784(class_3248.java:68) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10754(class_2535.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3242.method_14357(class_3242.java:172) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:908) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3813(class_3176.java:283) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:21:21] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
+java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:41) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.platform.packet.IServerPacketHandlerS2C$DefaultImpls.isSupported(IServerNetworking.kt:15) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:37) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.map.CardViewService.supportsCardHud(CardViewService.kt:50) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.map.CardViewService.sendUpdatePackets(CardViewService.kt:120) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.map.BingoMapController._init_$lambda$2(BingoMapController.kt:56) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.ScopedEvents.onPlayerChannelRegister$lambda$7(ScopedEvents.kt:48) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$15(ServerEventsImpl.kt:146) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents.lambda$static$0(S2CPlayChannelEvents.java:38) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.invokeRegisterEvent(ServerPlayNetworkAddon.java:102) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.register(AbstractChanneledNetworkAddon.java:164) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.registerPendingChannels(AbstractChanneledNetworkAddon.java:72) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.<init>(ServerPlayNetworkAddon.java:50) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.minecraft.class_3244.handler$zgl001$fabric-networking-api-v1$initAddon(class_3244.java:1994) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.<init>(class_3244.java:256) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3324.method_14570(class_3324.java:190) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_33800(class_3248.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_14384(class_3248.java:118) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.redirect$zgk000$fabric-networking-api-v1$handlePlayerJoin(class_3248.java:563) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_18784(class_3248.java:68) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10754(class_2535.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3242.method_14357(class_3242.java:172) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:908) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3813(class_3176.java:283) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:21:21] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
+java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:41) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.send(ServerNetworkingImpl.kt:45) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.platform.packet.IServerPacketHandlerS2C$DefaultImpls.send(IServerNetworking.kt:17) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.send(ServerNetworkingImpl.kt:37) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.ready.ReadyController.update(ReadyController.kt:157) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.ready.ReadyController._init_$lambda$15(ReadyController.kt:218) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.ScopedEvents.onPlayerChannelRegister$lambda$7(ScopedEvents.kt:48) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$15(ServerEventsImpl.kt:146) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents.lambda$static$0(S2CPlayChannelEvents.java:38) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.invokeRegisterEvent(ServerPlayNetworkAddon.java:102) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.register(AbstractChanneledNetworkAddon.java:164) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.registerPendingChannels(AbstractChanneledNetworkAddon.java:72) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.<init>(ServerPlayNetworkAddon.java:50) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.minecraft.class_3244.handler$zgl001$fabric-networking-api-v1$initAddon(class_3244.java:1994) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.<init>(class_3244.java:256) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3324.method_14570(class_3324.java:190) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_33800(class_3248.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_14384(class_3248.java:118) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.redirect$zgk000$fabric-networking-api-v1$handlePlayerJoin(class_3248.java:563) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_18784(class_3248.java:68) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10754(class_2535.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3242.method_14357(class_3242.java:172) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:908) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3813(class_3176.java:283) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:21:21] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
+java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:41) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.platform.packet.IServerPacketHandlerS2C$DefaultImpls.isSupported(IServerNetworking.kt:15) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:37) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.stats.StatsSyncController._init_$lambda$4(StatsSyncController.kt:102) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.ScopedEvents.onPlayerChannelRegister$lambda$7(ScopedEvents.kt:48) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$15(ServerEventsImpl.kt:146) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents.lambda$static$0(S2CPlayChannelEvents.java:38) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.invokeRegisterEvent(ServerPlayNetworkAddon.java:102) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.register(AbstractChanneledNetworkAddon.java:164) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.registerPendingChannels(AbstractChanneledNetworkAddon.java:72) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.<init>(ServerPlayNetworkAddon.java:50) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.minecraft.class_3244.handler$zgl001$fabric-networking-api-v1$initAddon(class_3244.java:1994) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.<init>(class_3244.java:256) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3324.method_14570(class_3324.java:190) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_33800(class_3248.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_14384(class_3248.java:118) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.redirect$zgk000$fabric-networking-api-v1$handlePlayerJoin(class_3248.java:563) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_18784(class_3248.java:68) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10754(class_2535.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3242.method_14357(class_3242.java:172) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:908) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3813(class_3176.java:283) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:21:21] [Server thread/INFO]: pekilemo joined the game
+[01:21:22] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/1573, l='ServerLevel[world]', x=-0.35, y=-16.90, z=-5.10]
+[01:21:22] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/1574, l='ServerLevel[world]', x=-0.50, y=-16.90, z=-5.00]
+[01:21:22] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/1575, l='ServerLevel[world]', x=-0.35, y=-16.85, z=-4.95]
+[01:21:22] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/1587, l='ServerLevel[world]', x=-0.35, y=-18.10, z=-5.10]
+[01:21:22] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/1588, l='ServerLevel[world]', x=-0.50, y=-18.10, z=-5.00]
+[01:21:22] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/1589, l='ServerLevel[world]', x=-0.35, y=-18.05, z=-4.95]
+[01:21:22] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/1599, l='ServerLevel[world]', x=-0.10, y=-16.50, z=-5.00]
+[01:21:22] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/1600, l='ServerLevel[world]', x=-0.10, y=-16.90, z=-5.00]
+[01:21:22] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/1601, l='ServerLevel[world]', x=-0.10, y=-17.30, z=-5.00]
+[01:21:22] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/1602, l='ServerLevel[world]', x=-0.10, y=-17.70, z=-5.00]
+[01:21:22] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/1603, l='ServerLevel[world]', x=-0.10, y=-18.10, z=-5.00]
+[01:21:22] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/1604, l='ServerLevel[world]', x=-0.10, y=-18.60, z=-5.00]
+[01:21:23] [IO-Worker-6/INFO]: [StatsSyncController] Broadcasting stats hash to player 0e5fd65d-1792-359b-a8e8-3e828b9ffa63
+[01:21:24] [IO-Worker-8/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 0e5fd65d-1792-359b-a8e8-3e828b9ffa63
+[01:21:24] [IO-Worker-8/INFO]: [StatsSyncController] Broadcasting 2 known gameIds to the client
+[01:21:39] [Server thread/INFO]: JustMaty[/172.22.236.172:59854] logged in with entity id 1694 at (1.1777182538328355, -15.0, 7.818279949259508)
+[01:21:39] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
 java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
@@ -226,7 +374,7 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[02:28:57] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5435/0x00007c4e98d8e808):
+[01:21:39] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
 java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
@@ -259,7 +407,7 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[02:28:57] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5435/0x00007c4e98d8e808):
+[01:21:39] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
 java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
@@ -292,7 +440,7 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[02:28:57] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5435/0x00007c4e98d8e808):
+[01:21:39] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
 java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
@@ -323,14 +471,50 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[02:28:57] [Server thread/INFO]: JustMaty joined the game
-[02:28:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3507ms or 70 ticks behind
-[02:28:58] [IO-Worker-12/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
-[02:28:59] [IO-Worker-11/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
-[02:28:59] [IO-Worker-11/INFO]: [StatsSyncController] Broadcasting 7 known gameIds to the client
-[02:28:59] [IO-Worker-13/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
-[02:29:45] [Server thread/INFO]: Elira_Ecriet[/172.22.164.237:50803] logged in with entity id 1406 at (-275.3572733639025, 62.073264324665075, -167.27962028201728)
-[02:29:45] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5435/0x00007c4e98d8e808):
+[01:21:39] [Server thread/INFO]: JustMaty joined the game
+[01:21:42] [IO-Worker-6/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[01:21:43] [IO-Worker-4/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[01:21:43] [IO-Worker-4/INFO]: [StatsSyncController] Broadcasting 10 known gameIds to the client
+[01:21:43] [IO-Worker-9/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
+[01:21:54] [Server thread/INFO]: [JustMaty: Killed pekilemo]
+[01:21:58] [Server thread/INFO]: [JustMaty: Removed 3 item(s) from player JustMaty]
+[01:22:31] [Server thread/INFO]: Elira_Ecriet[/172.22.164.237:60385] logged in with entity id 1697 at (0.5704352727926789, -18.0, 2.6711127054386234)
+[01:22:31] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
+java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:41) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.platform.packet.IServerPacketHandlerS2C$DefaultImpls.isSupported(IServerNetworking.kt:15) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:37) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.map.CardViewService.supportsCardHud(CardViewService.kt:50) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.infobook.InfoBookService.getSettingsPage(InfoBookService.kt:137) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.infobook.InfoBookService.updateBookItem(InfoBookService.kt:218) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.infobook.InfoBookService.updateBookItem(InfoBookService.kt:228) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.infobook.InfoBookController._init_$lambda$2(InfoBookController.kt:49) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.ScopedEvents.onPlayerChannelRegister$lambda$7(ScopedEvents.kt:48) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$15(ServerEventsImpl.kt:146) ~[bingo-2.5.0+mc1.20.1.jar:?]
+	at net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents.lambda$static$0(S2CPlayChannelEvents.java:38) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.invokeRegisterEvent(ServerPlayNetworkAddon.java:102) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.register(AbstractChanneledNetworkAddon.java:164) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.registerPendingChannels(AbstractChanneledNetworkAddon.java:72) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.<init>(ServerPlayNetworkAddon.java:50) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
+	at net.minecraft.class_3244.handler$zgl001$fabric-networking-api-v1$initAddon(class_3244.java:1994) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.<init>(class_3244.java:256) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3324.method_14570(class_3324.java:190) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_33800(class_3248.java:131) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_14384(class_3248.java:118) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.redirect$zgk000$fabric-networking-api-v1$handlePlayerJoin(class_3248.java:563) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.method_18784(class_3248.java:68) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10754(class_2535.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3242.method_14357(class_3242.java:172) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:908) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3813(class_3176.java:283) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:22:31] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
 java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
@@ -363,7 +547,7 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[02:29:45] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5435/0x00007c4e98d8e808):
+[01:22:31] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
 java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
@@ -396,7 +580,7 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[02:29:45] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5435/0x00007c4e98d8e808):
+[01:22:31] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
 java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
@@ -427,91 +611,90 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[02:29:45] [Server thread/INFO]: Elira_Ecriet joined the game
-[02:29:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2112ms or 42 ticks behind
-[02:29:47] [IO-Worker-12/INFO]: [StatsSyncController] Broadcasting stats hash to player 67015e66-705d-3d8b-8d5f-5b128f0c0d94
-[02:29:49] [IO-Worker-14/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 67015e66-705d-3d8b-8d5f-5b128f0c0d94
-[02:29:49] [IO-Worker-14/INFO]: [StatsSyncController] Broadcasting 5 known gameIds to the client
-[02:29:49] [IO-Worker-13/INFO]: [StatsSyncController] Requesting 1 missing gameIds from the client
-[02:30:21] [Server thread/INFO]: Creating a map for team bingo_pink - mapId=38
-[02:30:21] [Server thread/INFO]: Re-drawing map_38 for team pink (1.671931ms)
-[02:31:13] [Server thread/INFO]: Creating a map for team bingo_yellow - mapId=39
-[02:31:13] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[02:31:15] [Server thread/INFO]: [Not Secure] <JustMaty> no
-[02:31:18] [Server thread/INFO]: GameState changed: PREGAME -> STARTING
-[02:31:18] [Server thread/INFO]: [SpreadPlayers] Initialized in dimension minecraft:overworld with coordinateScale=1.0, logicalHeight=384, bottomY=-64, seaLevel=63
-[02:31:18] [Server thread/INFO]: Spawning team bingo_pink near chunk (5, -2)
-[02:31:18] [Server thread/INFO]: Spawning team bingo_yellow near chunk (-5, 2)
-[02:31:18] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-[02:31:18] [Server thread/INFO]:   BINGO Start!
-[02:31:18] [Server thread/INFO]:   Mode: Standard
-[02:31:18] [Server thread/INFO]:   Features: PvP
-[02:31:18] [Server thread/INFO]:   Goal: 3 lines
-[02:31:18] [Server thread/INFO]:   Difficulty: 0, 0, 0, 9, 16
-[02:31:18] [Server thread/INFO]:   Filter: Items
-[02:31:18] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-[02:31:20] [Server thread/INFO]: Skipping chunk (5, -2) which contains no valid spawn locations
-[02:31:20] [Server thread/INFO]: Using spawn position [-66, 76, 33] for bingo_yellow
-[02:31:20] [Server thread/INFO]: Skipping chunk (6, -2) which contains no valid spawn locations
-[02:31:20] [Server thread/INFO]: Skipping chunk (15, -2) which contains no valid spawn locations
-[02:31:21] [Server thread/INFO]: Using spawn position [260, 66, -24] for bingo_pink
-[02:31:21] [Server thread/INFO]: GameState changed: STARTING -> PRELOADING
-[02:31:21] [Server thread/INFO]: [SpawnPreloadingController] Pre-generating 162 chunks within a view distance of 4...
-[02:31:24] [Server thread/INFO]: [Not Secure] <JustMaty> c:
-[02:31:32] [Server thread/WARN]: Elira_Ecriet moved too quickly! -6.357712062678246,-7.0,7.918926632355207
-[02:31:36] [Server thread/INFO]: [SpawnPreloadingController] Finished preloading spawn chunks in 15.162440044s
-[02:31:36] [Server thread/INFO]: GameState changed: PRELOADING -> LOADING
-[02:31:36] [Server thread/INFO]: Waiting until all players have loaded spawn terrain...
-[02:31:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2545ms or 50 ticks behind
-[02:31:39] [Server thread/INFO]: Waiting until all players have loaded spawn terrain... Done! (2.566339005s)
-[02:31:39] [Server thread/INFO]: GameState changed: LOADING -> COUNTDOWN
-[02:31:46] [Server thread/INFO]: GameState changed: COUNTDOWN -> PLAYING
-[02:32:42] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:oak_pressure_plate
-[02:32:42] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=1, lines=0, cards=0)
-[02:32:43] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:oak_sapling
-[02:32:43] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=2, lines=0, cards=0)
-[02:32:52] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:chiseled_bookshelf
-[02:32:52] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=3, lines=0, cards=0)
-[02:32:54] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:oak_pressure_plate
-[02:32:54] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=1, lines=0, cards=0)
-[02:33:06] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:oak_sapling
-[02:33:06] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=2, lines=0, cards=0)
-[02:33:35] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:wheat_seeds
-[02:33:35] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=4, lines=0, cards=0)
-[02:33:46] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:wheat_seeds
-[02:33:46] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=3, lines=0, cards=0)
-[02:33:50] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:porkchop
-[02:33:50] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=5, lines=0, cards=0)
-[02:34:48] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:pumpkin
-[02:34:48] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=4, lines=0, cards=0)
-[02:35:52] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:glass
-[02:35:52] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=6, lines=0, cards=0)
-[02:36:26] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:glass_pane
-[02:36:26] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=7, lines=0, cards=0)
-[02:37:01] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got yet-another-minecraft-bingo:challenge/many_coal
-[02:37:01] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=5, lines=0, cards=0)
-[02:39:15] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:copper_ingot
-[02:39:15] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=8, lines=0, cards=0)
-[02:39:17] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:glass
-[02:39:17] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=6, lines=0, cards=0)
-[02:39:54] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:glass_pane
-[02:39:54] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=7, lines=0, cards=0)
-[02:40:02] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:pumpkin
-[02:40:02] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=9, lines=0, cards=0)
-[02:40:04] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:copper_ingot
-[02:40:04] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=8, lines=0, cards=0)
-[02:40:28] [Server thread/INFO]: [ScoredItemCheck] JustMaty got yet-another-minecraft-bingo:challenge/many_coal
-[02:40:28] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=10, lines=0, cards=0)
-[02:40:42] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:coal_block
-[02:40:42] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=11, lines=0, cards=0)
-[02:41:20] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:coal_block
-[02:41:20] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=9, lines=0, cards=0)
-[02:42:21] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:bone_meal
-[02:42:21] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=12, lines=0, cards=0)
-[02:42:33] [Server thread/INFO]: JustMaty lost connection: Disconnected
-[02:42:33] [Server thread/INFO]: JustMaty left the game
-[02:42:49] [Server thread/INFO]: JustMaty[/172.22.236.172:56064] logged in with entity id 7638 at (-8.275355424765486, 22.0, -113.03526443277171)
-[02:42:49] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5435/0x00007c4e98d8e808):
+[01:22:31] [Server thread/INFO]: Elira_Ecriet joined the game
+[01:22:32] [Server thread/INFO]: [Not Secure] <JustMaty> bro malditos shaders
+[01:22:35] [IO-Worker-9/INFO]: [StatsSyncController] Broadcasting stats hash to player 67015e66-705d-3d8b-8d5f-5b128f0c0d94
+[01:22:37] [IO-Worker-9/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 67015e66-705d-3d8b-8d5f-5b128f0c0d94
+[01:22:37] [IO-Worker-9/INFO]: [StatsSyncController] Broadcasting 8 known gameIds to the client
+[01:22:37] [IO-Worker-8/INFO]: [StatsSyncController] Requesting 1 missing gameIds from the client
+[01:22:47] [Server thread/INFO]: [JustMaty: Killed pekilemo]
+[01:22:51] [Server thread/INFO]: [Not Secure] <JustMaty> modo?
+[01:22:59] [Server thread/INFO]: [Not Secure] <pekilemo> el mas facil para elira
+[01:23:01] [Server thread/WARN]: Elira_Ecriet moved too quickly! 0.0,-15.688398795528684,0.0
+[01:23:04] [Server thread/WARN]: Elira_Ecriet moved too quickly! 0.0,-21.496557219025732,0.0
+[01:23:09] [Server thread/INFO]: [Not Secure] <JustMaty> XD
+[01:23:22] [Server thread/INFO]: [Not Secure] <JustMaty> 3 lineas
+[01:23:27] [Server thread/INFO]: [Not Secure] <pekilemo> muy pocas
+[01:23:38] [Server thread/INFO]: [Not Secure] <pekilemo> hard dificulty
+[01:23:47] [Server thread/INFO]: Creating a map for team bingo_pink - mapId=50
+[01:23:47] [Server thread/INFO]: Re-drawing map_50 for team pink (1.539215ms)
+[01:23:53] [Server thread/INFO]: [Not Secure] <JustMaty> mano hard pone cosas del end
+[01:24:00] [Server thread/INFO]: [Not Secure] <pekilemo> uy mejor no
+[01:24:04] [Server thread/INFO]: Creating a map for team bingo_yellow - mapId=51
+[01:24:04] [Server thread/INFO]: Re-drawing map_51 for team yellow (1.107248ms)
+[01:24:07] [Server thread/INFO]: Creating a map for team bingo_aqua - mapId=52
+[01:24:08] [Server thread/INFO]: [Not Secure] <JustMaty> iba a activar micro pero me dio paja
+[01:24:10] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:24:17] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:24:17] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:24:17] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:24:18] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:24:18] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:24:18] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:24:18] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:24:19] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:24:23] [Server thread/INFO]: [Not Secure] <pekilemo> oe no hay ningun team verde?? (mi color)
+[01:24:28] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:24:28] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:24:36] [Server thread/INFO]: Creating a map for team bingo_green - mapId=53
+[01:24:42] [Server thread/INFO]: GameState changed: PREGAME -> STARTING
+[01:24:42] [Server thread/INFO]: [SpreadPlayers] Initialized in dimension minecraft:overworld with coordinateScale=1.0, logicalHeight=384, bottomY=-64, seaLevel=63
+[01:24:42] [Server thread/INFO]: Spawning team bingo_pink near chunk (-1, -9)
+[01:24:42] [Server thread/INFO]: Spawning team bingo_yellow near chunk (-7, 5)
+[01:24:42] [Server thread/INFO]: Spawning team bingo_green near chunk (8, 3)
+[01:24:42] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[01:24:42] [Server thread/INFO]:   BINGO Start!
+[01:24:42] [Server thread/INFO]:   Mode: Standard
+[01:24:42] [Server thread/INFO]:   Features: PvP
+[01:24:42] [Server thread/INFO]:   Goal: 3 lines
+[01:24:42] [Server thread/INFO]:   Difficulty: 0, 0, 0, 9, 16
+[01:24:42] [Server thread/INFO]:   Filter: Items
+[01:24:42] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[01:24:47] [Server thread/INFO]: Skipping chunk (-29, -9) which contains no valid spawn locations
+[01:24:47] [Server thread/INFO]: Skipping chunk (-19, 5) which contains no valid spawn locations
+[01:24:48] [Server thread/INFO]: Skipping chunk (28, 3) which contains no valid spawn locations
+[01:24:48] [Server thread/INFO]: [Not Secure] <pekilemo> ya encontre
+[01:24:51] [Server thread/INFO]: Skipping chunk (-30, -9) which contains no valid spawn locations
+[01:24:51] [Server thread/INFO]: [Not Secure] <pekilemo> soy verde
+[01:24:51] [Server thread/INFO]: Using spawn position [-319, 71, 91] for bingo_yellow
+[01:24:52] [Server thread/INFO]: Using spawn position [470, 66, 62] for bingo_green
+[01:24:52] [Server thread/INFO]: Skipping chunk (-43, -9) which contains no valid spawn locations
+[01:24:53] [Server thread/INFO]: Skipping chunk (-44, -9) which contains no valid spawn locations
+[01:24:54] [Server thread/INFO]: Skipping chunk (-45, -9) which contains no valid spawn locations
+[01:24:55] [Server thread/INFO]: Skipping chunk (-46, -9) which contains no valid spawn locations
+[01:24:55] [Server thread/INFO]: Skipping chunk (-47, -9) which contains no valid spawn locations
+[01:24:55] [Server thread/INFO]: Skipping chunk (-48, -9) which contains no valid spawn locations
+[01:24:55] [Server thread/INFO]: Skipping chunk (-49, -9) which contains no valid spawn locations
+[01:24:55] [Server thread/INFO]: Using spawn position [-786, 65, -139] for bingo_pink
+[01:24:55] [Server thread/INFO]: GameState changed: STARTING -> PRELOADING
+[01:24:55] [Server thread/INFO]: [SpawnPreloadingController] Pre-generating 243 chunks within a view distance of 4...
+[01:25:15] [Server thread/INFO]: [SpawnPreloadingController] Finished preloading spawn chunks in 20.142860214s
+[01:25:15] [Server thread/INFO]: GameState changed: PRELOADING -> LOADING
+[01:25:15] [Server thread/INFO]: Waiting until all players have loaded spawn terrain...
+[01:25:16] [Server thread/INFO]: Waiting until all players have loaded spawn terrain... Done! (205.170873ms)
+[01:25:16] [Server thread/INFO]: GameState changed: LOADING -> COUNTDOWN
+[01:25:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2930ms or 58 ticks behind
+[01:25:23] [Server thread/INFO]: GameState changed: COUNTDOWN -> PLAYING
+[01:25:36] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:dirt
+[01:25:36] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=1, lines=0, cards=0)
+[01:25:42] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:dirt
+[01:25:42] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=1, lines=0, cards=0)
+[01:25:45] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:dirt
+[01:25:45] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=1, lines=0, cards=0)
+[01:26:16] [Server thread/INFO]: JustMaty lost connection: Disconnected
+[01:26:16] [Server thread/INFO]: JustMaty left the game
+[01:26:22] [Server thread/INFO]: JustMaty[/172.22.236.172:60133] logged in with entity id 3668 at (-287.87642905581816, 69.0, 41.32951235940874)
+[01:26:22] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
 java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
@@ -544,7 +727,7 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[02:42:49] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5435/0x00007c4e98d8e808):
+[01:26:22] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
 java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
@@ -575,145 +758,40 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[02:42:49] [Server thread/INFO]: JustMaty joined the game
-[02:42:49] [IO-Worker-26/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
-[02:42:52] [IO-Worker-26/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
-[02:42:52] [IO-Worker-26/INFO]: [StatsSyncController] Broadcasting 7 known gameIds to the client
-[02:42:52] [IO-Worker-31/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
-[02:43:59] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:porkchop
-[02:43:59] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=10, lines=0, cards=0)
-[02:44:04] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:lava_bucket
-[02:44:04] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=13, lines=0, cards=0)
-[02:45:01] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:lava_bucket
-[02:45:01] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=11, lines=0, cards=0)
-[02:46:40] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:iron_hoe
-[02:46:40] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=14, lines=0, cards=0)
-[02:46:40] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:lilac
-[02:46:40] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=12, lines=0, cards=0)
-[02:49:10] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:bone_meal
-[02:49:10] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=13, lines=0, cards=0)
-[02:50:59] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:cod_bucket
-[02:50:59] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=15, lines=1, cards=0)
-[02:52:04] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:beef
-[02:52:04] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=14, lines=0, cards=0)
-[02:54:10] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:blue_carpet
-[02:54:10] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=15, lines=0, cards=0)
-[02:54:51] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:blue_carpet
-[02:54:51] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=16, lines=1, cards=0)
-[02:55:01] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:beef
-[02:55:01] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=17, lines=1, cards=0)
-[02:56:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3000ms or 60 ticks behind
-[02:56:26] [Server thread/INFO]: Game was inactive for 3.050623326s - updating timer
-[02:56:38] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:spruce_fence
-[02:56:38] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=16, lines=1, cards=0)
-[02:57:04] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:polished_basalt
-[02:57:04] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=18, lines=2, cards=0)
-[02:57:38] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:cod_bucket
-[02:57:38] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=17, lines=2, cards=0)
-[02:58:43] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:apple
-[02:58:43] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=19, lines=3, cards=0)
-[02:58:43] [Server thread/INFO]: [ScoredItemCheck] Team bingo_yellow has completed their card
-[02:58:43] [Server thread/INFO]: [ScoredItemCheck] Ending the game because FirstWin was satisfied
-[02:58:43] [Server thread/INFO]: Writing game result to stats.db...
-[02:58:43] [Server thread/INFO]: Writing game result to stats.db... - done in 15.035037ms!
-[02:58:43] [Server thread/INFO]: GameState changed: PLAYING -> POSTGAME
-[02:58:43] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-[02:58:43] [Server thread/INFO]:   [🐝 JustMaty] completed their card!
-[02:58:43] [Server thread/INFO]:   Game duration: 26m 53s
-[02:58:43] [Server thread/INFO]:   Seed: [-2668417665561627765]
-[02:58:43] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-[02:58:47] [Server thread/INFO]: [ReadyController] Starting the POSTGAME timer for 600 seconds
-[02:58:51] [Server thread/INFO]: [JustMaty: Resetting the game...]
-[02:58:51] [Server thread/INFO]: Resetting worlds...
-[02:58:51] [Server thread/INFO]: [Reset] Clearing game data
-[02:58:51] [Server thread/INFO]: [Reset] Recreating worlds
-[02:58:51] [Server thread/INFO]: [Reset] Saving...
-[02:58:51] [Server thread/INFO]: [Reset] Saving... - done in 14.343954ms!
-[02:58:51] [Server thread/INFO]: [Reset] Closing minecraft:overworld...
-[02:58:51] [Server thread/INFO]: [Reset] Closing minecraft:overworld... - done in 34.769516ms!
-[02:58:51] [Server thread/INFO]: [Reset] Closing bingo:lobby...
-[02:58:51] [Server thread/INFO]: [Reset] Closing bingo:lobby... - done in 6.048372ms!
-[02:58:51] [Server thread/INFO]: [Reset] Closing minecraft:the_end...
-[02:58:51] [Server thread/INFO]: [Reset] Closing minecraft:the_end... - done in 277.457us!
-[02:58:51] [Server thread/INFO]: [Reset] Closing minecraft:the_nether...
-[02:58:51] [Server thread/INFO]: [Reset] Closing minecraft:the_nether... - done in 10.395049ms!
-[02:58:51] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
-[02:58:51] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 136.891796ms!
-[02:58:51] [Server thread/INFO]: [Reset] Loading new worlds...
-[02:58:51] [Server thread/INFO]: [Reset] Loading new worlds... - done in 37.275123ms!
-[02:58:51] [Server thread/INFO]: [Reset] Transferring game state
-[02:58:51] [Server thread/INFO]: [Reset] Teleporting players back to lobby
-[02:58:51] [Server thread/INFO]: GameState changed: POSTGAME -> PREGAME
-[02:58:51] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
-[02:58:51] [Server thread/INFO]: [CardService] Using random BINGO card seed: 5065276610779173976
-[02:58:51] [Server thread/INFO]: Set lobby spawnpoint to ([0, -18, 1], -180.0)
-[02:58:51] [Server thread/INFO]: Set menu position to ( 0.000E+0 -1.800E+1 -5.000E+0  1.000E+0)
-[02:58:51] [Server thread/INFO]: [MenuController] Spawning lobby menu at ( 0.000E+0 -1.800E+1 -5.000E+0)
-[02:58:51] [Server thread/INFO]: [MenuController] Locating team entities...
-[02:58:52] [Server thread/INFO]: [MenuController] Locating team entities... - done in 223.414006ms!
-[02:58:52] [Server thread/INFO]: Resetting worlds... - done in 591.327388ms!
-[02:58:52] [Server thread/INFO]: Re-drawing map_null for team null (136.933647ms)
-[02:59:40] [Server thread/INFO]: [Not Secure] <JustMaty> XD
-[02:59:48] [Server thread/INFO]: [Not Secure] <JustMaty> me toco ir al nether XD
-[02:59:57] [Server thread/INFO]: [Not Secure] <JustMaty> por el basalto
-[02:59:59] [Server thread/INFO]: Creating a map for team bingo_pink - mapId=41
-[03:00:00] [Server thread/INFO]: Creating a map for team bingo_yellow - mapId=42
-[03:00:00] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:00:03] [Server thread/INFO]: GameState changed: PREGAME -> STARTING
-[03:00:03] [Server thread/INFO]: [SpreadPlayers] Initialized in dimension minecraft:overworld with coordinateScale=1.0, logicalHeight=384, bottomY=-64, seaLevel=63
-[03:00:03] [Server thread/INFO]: Spawning team bingo_pink near chunk (-5, 3)
-[03:00:03] [Server thread/INFO]: Spawning team bingo_yellow near chunk (5, -3)
-[03:00:03] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-[03:00:03] [Server thread/INFO]:   BINGO Start!
-[03:00:03] [Server thread/INFO]:   Mode: Standard
-[03:00:03] [Server thread/INFO]:   Features: PvP
-[03:00:03] [Server thread/INFO]:   Goal: 3 lines
-[03:00:03] [Server thread/INFO]:   Difficulty: 0, 0, 0, 9, 16
-[03:00:03] [Server thread/INFO]:   Filter: Items
-[03:00:03] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-[03:00:04] [Server thread/INFO]: Skipping chunk (-9, 3) for invalid spawn block biome
-[03:00:06] [Server thread/INFO]: Skipping chunk (9, -3) which contains no valid spawn locations
-[03:00:07] [Server thread/INFO]: Using spawn position [-195, 67, 55] for bingo_pink
-[03:00:07] [Server thread/INFO]: Using spawn position [163, 70, -40] for bingo_yellow
-[03:00:07] [Server thread/INFO]: GameState changed: STARTING -> PRELOADING
-[03:00:07] [Server thread/INFO]: [SpawnPreloadingController] Pre-generating 162 chunks within a view distance of 4...
-[03:00:18] [Server thread/INFO]: [SpawnPreloadingController] Finished preloading spawn chunks in 10.777803714s
-[03:00:18] [Server thread/INFO]: GameState changed: PRELOADING -> LOADING
-[03:00:18] [Server thread/INFO]: Waiting until all players have loaded spawn terrain...
-[03:00:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3635ms or 72 ticks behind
-[03:00:22] [Server thread/INFO]: Waiting until all players have loaded spawn terrain... Done! (3.643266012s)
-[03:00:22] [Server thread/INFO]: GameState changed: LOADING -> COUNTDOWN
-[03:00:29] [Server thread/INFO]: GameState changed: COUNTDOWN -> PLAYING
-[03:00:55] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:wooden_pickaxe
-[03:00:55] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=1, lines=0, cards=0)
-[03:01:03] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:wooden_pickaxe
-[03:01:03] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=1, lines=0, cards=0)
-[03:01:19] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:stone_axe
-[03:01:19] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=2, lines=0, cards=0)
-[03:01:30] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:coal
-[03:01:30] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=3, lines=0, cards=0)
-[03:02:03] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:furnace
-[03:02:03] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=4, lines=0, cards=0)
-[03:02:16] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:furnace
-[03:02:16] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=2, lines=0, cards=0)
-[03:02:32] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:porkchop
-[03:02:32] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=5, lines=0, cards=0)
-[03:02:37] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:sand
-[03:02:37] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=6, lines=0, cards=0)
-[03:02:54] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:charcoal
-[03:02:54] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=7, lines=0, cards=0)
-[03:03:48] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:flint
-[03:03:48] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=8, lines=0, cards=0)
-[03:04:03] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:glass_pane
-[03:04:03] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=9, lines=0, cards=0)
-[03:04:33] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:clay_ball
-[03:04:33] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=10, lines=0, cards=0)
-[03:04:41] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:cooked_porkchop
-[03:04:41] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=11, lines=0, cards=0)
-[03:05:19] [Server thread/INFO]: JustMaty lost connection: Disconnected
-[03:05:19] [Server thread/INFO]: JustMaty left the game
-[03:05:25] [Server thread/INFO]: JustMaty[/172.22.236.172:56435] logged in with entity id 18328 at (241.6940793975297, 67.0, -86.13940820274811)
-[03:05:25] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5435/0x00007c4e98d8e808):
+[01:26:22] [Server thread/INFO]: JustMaty joined the game
+[01:26:23] [IO-Worker-14/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[01:26:24] [IO-Worker-14/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[01:26:24] [IO-Worker-14/INFO]: [StatsSyncController] Broadcasting 10 known gameIds to the client
+[01:26:24] [IO-Worker-12/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
+[01:26:38] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:furnace
+[01:26:38] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=2, lines=0, cards=0)
+[01:26:51] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got yet-another-minecraft-bingo:challenge/many_sand
+[01:26:51] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=2, lines=0, cards=0)
+[01:26:55] [Server thread/INFO]: Re-drawing map_50 for team pink (5.799902ms)
+[01:26:59] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:painting
+[01:26:59] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=2, lines=0, cards=0)
+[01:26:59] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:kelp
+[01:26:59] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=3, lines=0, cards=0)
+[01:27:46] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:furnace
+[01:27:46] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=3, lines=0, cards=0)
+[01:27:53] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:furnace
+[01:27:53] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=3, lines=0, cards=0)
+[01:27:59] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:cobblestone_stairs
+[01:27:59] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=4, lines=0, cards=0)
+[01:28:22] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:cooked_beef
+[01:28:22] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=5, lines=0, cards=0)
+[01:28:54] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:charcoal
+[01:28:54] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=6, lines=0, cards=0)
+[01:29:33] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:smoker
+[01:29:33] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=4, lines=0, cards=0)
+[01:29:57] [Server thread/INFO]: [ScoredItemCheck] pekilemo got yet-another-minecraft-bingo:challenge/many_cod
+[01:29:57] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=4, lines=0, cards=0)
+[01:30:02] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got yet-another-minecraft-bingo:challenge/many_sugar_cane
+[01:30:02] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=5, lines=0, cards=0)
+[01:30:41] [Server thread/INFO]: JustMaty lost connection: Disconnected
+[01:30:41] [Server thread/INFO]: JustMaty left the game
+[01:30:47] [Server thread/INFO]: JustMaty[/172.22.236.172:60282] logged in with entity id 8325 at (-274.2491649711059, 64.0, 202.56534892788326)
+[01:30:47] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
 java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
@@ -746,7 +824,7 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[03:05:25] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5435/0x00007c4e98d8e808):
+[01:30:47] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
 java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
@@ -777,33 +855,55 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[03:05:25] [Server thread/INFO]: JustMaty joined the game
-[03:05:26] [IO-Worker-54/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
-[03:05:27] [IO-Worker-54/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
-[03:05:27] [IO-Worker-54/INFO]: [StatsSyncController] Broadcasting 8 known gameIds to the client
-[03:05:27] [IO-Worker-55/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
-[03:05:39] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:stone_axe
-[03:05:39] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=3, lines=0, cards=0)
-[03:06:08] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:sand
-[03:06:08] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=4, lines=0, cards=0)
-[03:06:21] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:painting
-[03:06:21] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=12, lines=0, cards=0)
-[03:07:36] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:chicken
-[03:07:36] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=13, lines=0, cards=0)
-[03:07:37] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:clay_ball
-[03:07:37] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=5, lines=0, cards=0)
-[03:07:55] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:fletching_table
-[03:07:55] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=14, lines=1, cards=0)
-[03:08:04] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:flint
-[03:08:04] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=6, lines=0, cards=0)
-[03:08:09] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:oak_chest_boat
-[03:08:09] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=15, lines=1, cards=0)
-[03:08:27] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:charcoal
-[03:08:27] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=7, lines=0, cards=0)
-[03:08:53] [Server thread/INFO]: JustMaty lost connection: Disconnected
-[03:08:53] [Server thread/INFO]: JustMaty left the game
-[03:08:59] [Server thread/INFO]: JustMaty[/172.22.236.172:56527] logged in with entity id 20873 at (339.9917498341616, 61.704299219673196, -23.9205129246732)
-[03:08:59] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5435/0x00007c4e98d8e808):
+[01:30:47] [Server thread/INFO]: JustMaty joined the game
+[01:30:48] [IO-Worker-21/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[01:30:50] [IO-Worker-21/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[01:30:50] [IO-Worker-14/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
+[01:30:50] [IO-Worker-21/INFO]: [StatsSyncController] Broadcasting 10 known gameIds to the client
+[01:30:58] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:cobblestone_stairs
+[01:30:58] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=6, lines=0, cards=0)
+[01:31:12] [Server thread/INFO]: [ScoredItemCheck] JustMaty got yet-another-minecraft-bingo:challenge/many_sand
+[01:31:12] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=7, lines=0, cards=0)
+[01:31:18] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:cobblestone_stairs
+[01:31:18] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=5, lines=0, cards=0)
+[01:31:39] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:cooked_beef
+[01:31:39] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=6, lines=0, cards=0)
+[01:32:01] [Server thread/INFO]: [ScoredItemCheck] JustMaty got yet-another-minecraft-bingo:challenge/many_clay_balls
+[01:32:01] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=8, lines=0, cards=0)
+[01:33:30] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:shears
+[01:33:30] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=9, lines=0, cards=0)
+[01:33:39] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:cooked_beef
+[01:33:39] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=7, lines=0, cards=0)
+[01:33:50] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:pumpkin
+[01:33:50] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=7, lines=0, cards=0)
+[01:34:31] [Server thread/INFO]: [ScoredItemCheck] pekilemo got yet-another-minecraft-bingo:challenge/many_salmon
+[01:34:31] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=8, lines=0, cards=0)
+[01:34:49] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got yet-another-minecraft-bingo:challenge/many_clay_balls
+[01:34:49] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=8, lines=0, cards=0)
+[01:35:03] [Server thread/INFO]: [ScoredItemCheck] JustMaty got yet-another-minecraft-bingo:challenge/many_salmon
+[01:35:03] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=10, lines=0, cards=0)
+[01:35:08] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:kelp
+[01:35:08] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=11, lines=0, cards=0)
+[01:35:28] [Server thread/INFO]: [ScoredItemCheck] JustMaty got yet-another-minecraft-bingo:challenge/many_sugar_cane
+[01:35:28] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=12, lines=0, cards=0)
+[01:35:30] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got yet-another-minecraft-bingo:challenge/many_salmon
+[01:35:30] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=9, lines=0, cards=0)
+[01:35:31] [Server thread/INFO]: [ScoredItemCheck] pekilemo got yet-another-minecraft-bingo:challenge/many_sand
+[01:35:31] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=9, lines=0, cards=0)
+[01:35:38] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:red_mushroom
+[01:35:38] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=10, lines=0, cards=0)
+[01:35:51] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:coal_block
+[01:35:51] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=11, lines=0, cards=0)
+[01:36:45] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:smoker
+[01:36:45] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=12, lines=0, cards=0)
+[01:37:30] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:smoker
+[01:37:30] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=13, lines=0, cards=0)
+[01:37:57] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:charcoal
+[01:37:57] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=10, lines=0, cards=0)
+[01:39:12] [Server thread/INFO]: JustMaty lost connection: Disconnected
+[01:39:12] [Server thread/INFO]: JustMaty left the game
+[01:39:18] [Server thread/INFO]: JustMaty[/172.22.236.172:60658] logged in with entity id 16665 at (-354.14868625985554, 67.7531999805212, -7.5173510510774815)
+[01:39:18] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
 java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
@@ -836,7 +936,7 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[03:08:59] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5435/0x00007c4e98d8e808):
+[01:39:18] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5436/0x00007d2e00d80f50):
 java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
 	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
@@ -867,344 +967,10 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[03:08:59] [Server thread/INFO]: JustMaty joined the game
-[03:08:59] [IO-Worker-59/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
-[03:09:00] [IO-Worker-58/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
-[03:09:00] [IO-Worker-59/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
-[03:09:00] [IO-Worker-58/INFO]: [StatsSyncController] Broadcasting 8 known gameIds to the client
-[03:09:13] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:coal
-[03:09:13] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=8, lines=0, cards=0)
-[03:10:41] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:oak_chest_boat
-[03:10:41] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=9, lines=0, cards=0)
-[03:11:09] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:cooked_salmon
-[03:11:09] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=16, lines=1, cards=0)
-[03:11:59] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:blue_concrete
-[03:11:59] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=17, lines=1, cards=0)
-[03:12:04] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:fletching_table
-[03:12:04] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=10, lines=0, cards=0)
-[03:12:07] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:glass_pane
-[03:12:07] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=11, lines=0, cards=0)
-[03:12:39] [Server thread/INFO]: Villager class_1646['Villager'/22509, l='ServerLevel[world]', x=-309.37, y=64.50, z=-252.72] died, message: 'Villager suffocated in a wall'
-[03:14:24] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:porkchop
-[03:14:24] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=12, lines=0, cards=0)
-[03:15:17] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:chicken
-[03:15:17] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=13, lines=0, cards=0)
-[03:17:40] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:copper_block
-[03:17:40] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=18, lines=2, cards=0)
-[03:19:24] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:lectern
-[03:19:24] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=14, lines=1, cards=0)
-[03:19:33] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:cooked_porkchop
-[03:19:33] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=15, lines=2, cards=0)
-[03:23:19] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:wheat
-[03:23:19] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=16, lines=2, cards=0)
-[03:23:41] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:lectern
-[03:23:41] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=19, lines=4, cards=0)
-[03:23:41] [Server thread/INFO]: [ScoredItemCheck] Team bingo_yellow has completed their card
-[03:23:41] [Server thread/INFO]: [ScoredItemCheck] Ending the game because FirstWin was satisfied
-[03:23:41] [Server thread/INFO]: Writing game result to stats.db...
-[03:23:41] [Server thread/INFO]: Writing game result to stats.db... - done in 12.760077ms!
-[03:23:41] [Server thread/INFO]: GameState changed: PLAYING -> POSTGAME
-[03:23:41] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-[03:23:41] [Server thread/INFO]:   [🐝 JustMaty] completed their card!
-[03:23:41] [Server thread/INFO]:   Game duration: 23m 12s
-[03:23:41] [Server thread/INFO]:   Seed: [7820438304590794629]
-[03:23:41] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-[03:23:43] [Server thread/INFO]: [ReadyController] Starting the POSTGAME timer for 600 seconds
-[03:23:54] [Server thread/INFO]: [JustMaty: Resetting the game...]
-[03:23:54] [Server thread/INFO]: Resetting worlds...
-[03:23:54] [Server thread/INFO]: [Reset] Clearing game data
-[03:23:54] [Server thread/INFO]: [Reset] Recreating worlds
-[03:23:54] [Server thread/INFO]: [Reset] Saving...
-[03:23:54] [Server thread/INFO]: [Reset] Saving... - done in 13.985736ms!
-[03:23:54] [Server thread/INFO]: [Reset] Closing minecraft:overworld...
-[03:23:54] [Server thread/INFO]: [Reset] Closing minecraft:overworld... - done in 34.977865ms!
-[03:23:54] [Server thread/INFO]: [Reset] Closing bingo:lobby...
-[03:23:54] [Server thread/INFO]: [Reset] Closing bingo:lobby... - done in 6.154367ms!
-[03:23:54] [Server thread/INFO]: [Reset] Closing minecraft:the_end...
-[03:23:54] [Server thread/INFO]: [Reset] Closing minecraft:the_end... - done in 275.384us!
-[03:23:54] [Server thread/INFO]: [Reset] Closing minecraft:the_nether...
-[03:23:54] [Server thread/INFO]: [Reset] Closing minecraft:the_nether... - done in 212.039us!
-[03:23:54] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
-[03:23:54] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 126.282572ms!
-[03:23:54] [Server thread/INFO]: [Reset] Loading new worlds...
-[03:23:54] [Server thread/INFO]: [Reset] Loading new worlds... - done in 17.998495ms!
-[03:23:54] [Server thread/INFO]: [Reset] Transferring game state
-[03:23:54] [Server thread/INFO]: [Reset] Teleporting players back to lobby
-[03:23:54] [Server thread/INFO]: GameState changed: POSTGAME -> PREGAME
-[03:23:54] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
-[03:23:54] [Server thread/INFO]: [CardService] Using random BINGO card seed: 7933683822827025684
-[03:23:54] [Server thread/INFO]: Set lobby spawnpoint to ([0, -18, 1], -180.0)
-[03:23:54] [Server thread/INFO]: Set menu position to ( 0.000E+0 -1.800E+1 -5.000E+0  1.000E+0)
-[03:23:54] [Server thread/INFO]: [MenuController] Spawning lobby menu at ( 0.000E+0 -1.800E+1 -5.000E+0)
-[03:23:54] [Server thread/INFO]: [MenuController] Locating team entities...
-[03:23:54] [Server thread/INFO]: [MenuController] Locating team entities... - done in 166.417885ms!
-[03:23:54] [Server thread/INFO]: Resetting worlds... - done in 462.397565ms!
-[03:23:55] [Server thread/INFO]: Re-drawing map_null for team null (89.604771ms)
-[03:24:08] [Server thread/INFO]: [JustMaty: Gave 1 [Diamond Sword] to JustMaty]
-[03:25:01] [Server thread/INFO]: [Not Secure] <JustMaty> skill issues
-[03:25:07] [Server thread/INFO]: [JustMaty: Removed 2 item(s) from player Elira_Ecriet]
-[03:25:19] [Server thread/INFO]: [Not Secure] <JustMaty> logros? o k
-[03:25:37] [Server thread/INFO]: [CardService] Using random BINGO card seed: 7933683822827025684
-[03:25:37] [Server thread/INFO]: Re-drawing map_null for team null (119.998624ms)
-[03:25:41] [Server thread/INFO]: [Not Secure] <JustMaty> nunca hemos intentado medium
-[03:25:46] [Server thread/INFO]: [Not Secure] <JustMaty> yo creo que easy esta bien
-[03:25:48] [Server thread/INFO]: [Not Secure] <JustMaty> si no es muy largo
-[03:25:50] [Server thread/INFO]: [CardService] Using random BINGO card seed: 7933683822827025684
-[03:25:59] [Server thread/INFO]: [Not Secure] <JustMaty> cuantas lineas?
-[03:26:25] [Server thread/INFO]: Creating a map for team bingo_yellow - mapId=44
-[03:26:29] [Server thread/INFO]: [Not Secure] <JustMaty> si
-[03:26:30] [Server thread/INFO]: Creating a map for team bingo_pink - mapId=45
-[03:26:30] [Server thread/INFO]: GameState changed: PREGAME -> STARTING
-[03:26:30] [Server thread/INFO]: [SpreadPlayers] Initialized in dimension minecraft:overworld with coordinateScale=1.0, logicalHeight=384, bottomY=-64, seaLevel=63
-[03:26:30] [Server thread/INFO]: Spawning team bingo_yellow near chunk (-1, 6)
-[03:26:30] [Server thread/INFO]: Spawning team bingo_pink near chunk (1, -6)
-[03:26:30] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-[03:26:30] [Server thread/INFO]:   BINGO Start!
-[03:26:30] [Server thread/INFO]:   Mode: Inventory
-[03:26:30] [Server thread/INFO]:   Features: PvP
-[03:26:30] [Server thread/INFO]:   Goal: Full Card [Lines]
-[03:26:30] [Server thread/INFO]:   Difficulty: 0, 0, 0, 9, 16
-[03:26:30] [Server thread/INFO]:   Filter: Items
-[03:26:30] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-[03:26:31] [Server thread/INFO]: Using spawn position [-15, 110, 102] for bingo_yellow
-[03:26:31] [Server thread/INFO]: Using spawn position [19, 81, -88] for bingo_pink
-[03:26:31] [Server thread/INFO]: GameState changed: STARTING -> PRELOADING
-[03:26:31] [Server thread/INFO]: [SpawnPreloadingController] Pre-generating 162 chunks within a view distance of 4...
-[03:26:34] [Server thread/INFO]: [Not Secure] <JustMaty> por??
-[03:26:39] [Server thread/INFO]: [Not Secure] <JustMaty> por????
-[03:26:43] [Server thread/INFO]: [SpawnPreloadingController] Finished preloading spawn chunks in 12.076626823s
-[03:26:43] [Server thread/INFO]: GameState changed: PRELOADING -> LOADING
-[03:26:43] [Server thread/INFO]: Waiting until all players have loaded spawn terrain...
-[03:26:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2327ms or 46 ticks behind
-[03:26:46] [Server thread/INFO]: Waiting until all players have loaded spawn terrain... Done! (2.345952075s)
-[03:26:46] [Server thread/INFO]: GameState changed: LOADING -> COUNTDOWN
-[03:26:53] [Server thread/INFO]: GameState changed: COUNTDOWN -> PLAYING
-[03:27:38] [Server thread/INFO]: JustMaty lost connection: Disconnected
-[03:27:38] [Server thread/INFO]: JustMaty left the game
-[03:27:44] [Server thread/INFO]: JustMaty[/172.22.236.172:56914] logged in with entity id 29383 at (-77.76396498840428, 116.1212968405392, 13.059345729100656)
-[03:27:44] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5435/0x00007c4e98d8e808):
-java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
-	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
-	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
-	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:41) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.platform.packet.IServerPacketHandlerS2C$DefaultImpls.isSupported(IServerNetworking.kt:15) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:37) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.map.CardViewService.supportsCardHud(CardViewService.kt:50) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.map.CardViewService.sendUpdatePackets(CardViewService.kt:120) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.map.BingoMapController._init_$lambda$2(BingoMapController.kt:56) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.event.ScopedEvents.onPlayerChannelRegister$lambda$7(ScopedEvents.kt:48) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$15(ServerEventsImpl.kt:146) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents.lambda$static$0(S2CPlayChannelEvents.java:38) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
-	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.invokeRegisterEvent(ServerPlayNetworkAddon.java:102) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
-	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.register(AbstractChanneledNetworkAddon.java:164) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
-	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.registerPendingChannels(AbstractChanneledNetworkAddon.java:72) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
-	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.<init>(ServerPlayNetworkAddon.java:50) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
-	at net.minecraft.class_3244.handler$zgl001$fabric-networking-api-v1$initAddon(class_3244.java:1994) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.<init>(class_3244.java:256) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14570(class_3324.java:190) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3248.method_33800(class_3248.java:131) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3248.method_14384(class_3248.java:118) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3248.redirect$zgk000$fabric-networking-api-v1$handlePlayerJoin(class_3248.java:563) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3248.method_18784(class_3248.java:68) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2535.method_10754(class_2535.java:259) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3242.method_14357(class_3242.java:172) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:908) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3176.method_3813(class_3176.java:283) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[03:27:44] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.ChannelRegister, ScopedEvents$$Lambda$5435/0x00007c4e98d8e808):
-java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.getSendableChannels()" because the return value of "net.fabricmc.fabric.impl.networking.server.ServerNetworkingImpl.getAddon(net.minecraft.class_3244)" is null
-	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:360) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
-	at net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking.canSend(ServerPlayNetworking.java:333) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
-	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:41) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.platform.packet.IServerPacketHandlerS2C$DefaultImpls.isSupported(IServerNetworking.kt:15) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.impl.networking.ServerNetworkingImpl$ServerPacketHandlerS2C.isSupported(ServerNetworkingImpl.kt:37) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.stats.StatsSyncController._init_$lambda$4(StatsSyncController.kt:102) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.event.ScopedEvents.onPlayerChannelRegister$lambda$7(ScopedEvents.kt:48) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$15(ServerEventsImpl.kt:146) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents.lambda$static$0(S2CPlayChannelEvents.java:38) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
-	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.invokeRegisterEvent(ServerPlayNetworkAddon.java:102) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
-	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.register(AbstractChanneledNetworkAddon.java:164) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
-	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.registerPendingChannels(AbstractChanneledNetworkAddon.java:72) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
-	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.<init>(ServerPlayNetworkAddon.java:50) ~[fabric-networking-api-v1-1.3.13+13a40c6677-1abff798c20913f7.jar:?]
-	at net.minecraft.class_3244.handler$zgl001$fabric-networking-api-v1$initAddon(class_3244.java:1994) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.<init>(class_3244.java:256) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14570(class_3324.java:190) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3248.method_33800(class_3248.java:131) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3248.method_14384(class_3248.java:118) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3248.redirect$zgk000$fabric-networking-api-v1$handlePlayerJoin(class_3248.java:563) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3248.method_18784(class_3248.java:68) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2535.method_10754(class_2535.java:259) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3242.method_14357(class_3242.java:172) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:908) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3176.method_3813(class_3176.java:283) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[03:27:44] [Server thread/INFO]: JustMaty joined the game
-[03:27:45] [IO-Worker-77/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
-[03:27:46] [IO-Worker-80/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
-[03:27:46] [IO-Worker-77/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
-[03:27:46] [IO-Worker-80/INFO]: [StatsSyncController] Broadcasting 9 known gameIds to the client
-[03:28:42] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:sugar_cane
-[03:28:42] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=1, lines=0, cards=0)
-[03:28:53] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:sandstone
-[03:28:53] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=2, lines=0, cards=0)
-[03:28:53] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=1, lines=0, cards=0)
-[03:29:39] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=0, lines=0, cards=0)
-[03:29:39] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.TickEvent.Start, ScopedEvents$$Lambda$5414/0x00007c4e98d89800):
-java.lang.NullPointerException: Cannot invoke "me.jfenn.bingo.common.team.BingoTeam.getScore()" because "it" is null
-	at me.jfenn.bingo.common.scoring.ScoreService$getComparator$$inlined$compareBy$1.compare(Comparisons.kt:103) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.scoring.ScoreService$getComparator$$inlined$thenBy$1.compare(Comparisons.kt:144) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.scoring.ScoreService$getComparator$$inlined$thenBy$2.compare(Comparisons.kt:144) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.scoring.ScoredItemCheck.postTickCards(ScoredItemCheck.kt:471) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.scoring.ScoredItemCheck._init_$lambda$56(ScoredItemCheck.kt:558) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.event.ScopedEvents.onGameTick$lambda$1(ScopedEvents.kt:34) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$2(ServerEventsImpl.kt:57) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents.lambda$static$0(ServerTickEvents.java:34) ~[fabric-lifecycle-events-v1-2.2.2+1802ada577-f0da28253951162f.jar:?]
-	at net.minecraft.server.MinecraftServer.handler$zfl000$fabric-lifecycle-events-v1$onStartTick(MinecraftServer.java:2357) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[03:29:39] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:sugar
-[03:29:39] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=1, lines=0, cards=0)
-[03:29:40] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=0, lines=0, cards=0)
-[03:29:40] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.TickEvent.Start, ScopedEvents$$Lambda$5414/0x00007c4e98d89800):
-java.lang.NullPointerException: Cannot invoke "me.jfenn.bingo.common.team.BingoTeam.getScore()" because "it" is null
-	at me.jfenn.bingo.common.scoring.ScoreService$getComparator$$inlined$compareBy$1.compare(Comparisons.kt:103) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.scoring.ScoreService$getComparator$$inlined$thenBy$1.compare(Comparisons.kt:144) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.scoring.ScoreService$getComparator$$inlined$thenBy$2.compare(Comparisons.kt:144) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.scoring.ScoredItemCheck.postTickCards(ScoredItemCheck.kt:471) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.scoring.ScoredItemCheck._init_$lambda$56(ScoredItemCheck.kt:558) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.event.ScopedEvents.onGameTick$lambda$1(ScopedEvents.kt:34) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$2(ServerEventsImpl.kt:57) ~[bingo-2.5.0+mc1.20.1.jar:?]
-	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents.lambda$static$0(ServerTickEvents.java:34) ~[fabric-lifecycle-events-v1-2.2.2+1802ada577-f0da28253951162f.jar:?]
-	at net.minecraft.server.MinecraftServer.handler$zfl000$fabric-lifecycle-events-v1$onStartTick(MinecraftServer.java:2357) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[03:31:20] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:chest
-[03:31:20] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=1, lines=0, cards=0)
-[03:32:01] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:furnace
-[03:32:01] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=1, lines=0, cards=0)
-[03:32:02] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=0, lines=0, cards=0)
-[03:32:35] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:glass
-[03:32:35] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=1, lines=0, cards=0)
-[03:32:36] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=0, lines=0, cards=0)
-[03:32:51] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:furnace
-[03:32:51] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=1, lines=0, cards=0)
-[03:33:12] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=0, lines=0, cards=0)
-[03:33:14] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:furnace
-[03:33:14] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=1, lines=0, cards=0)
-[03:33:55] [Server thread/INFO]: [JustMaty: Resetting the game...]
-[03:33:55] [Server thread/INFO]: Resetting worlds...
-[03:33:55] [Server thread/INFO]: [Reset] Clearing game data
-[03:33:55] [Server thread/INFO]: [Reset] Recreating worlds
-[03:33:55] [Server thread/INFO]: [Reset] Saving...
-[03:33:55] [Server thread/INFO]: [Reset] Saving... - done in 12.448746ms!
-[03:33:55] [Server thread/INFO]: [Reset] Closing minecraft:overworld...
-[03:33:55] [Server thread/INFO]: [Reset] Closing minecraft:overworld... - done in 25.233907ms!
-[03:33:55] [Server thread/INFO]: [Reset] Closing bingo:lobby...
-[03:33:55] [Server thread/INFO]: [Reset] Closing bingo:lobby... - done in 9.050550ms!
-[03:33:55] [Server thread/INFO]: [Reset] Closing minecraft:the_end...
-[03:33:55] [Server thread/INFO]: [Reset] Closing minecraft:the_end... - done in 379.618us!
-[03:33:55] [Server thread/INFO]: [Reset] Closing minecraft:the_nether...
-[03:33:55] [Server thread/INFO]: [Reset] Closing minecraft:the_nether... - done in 275.31us!
-[03:33:55] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
-[03:33:55] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 120.127514ms!
-[03:33:55] [Server thread/INFO]: [Reset] Loading new worlds...
-[03:33:55] [Server thread/INFO]: [Reset] Loading new worlds... - done in 14.583871ms!
-[03:33:55] [Server thread/INFO]: [Reset] Transferring game state
-[03:33:55] [Server thread/INFO]: [Reset] Teleporting players back to lobby
-[03:33:55] [Server thread/INFO]: GameState changed: PLAYING -> PREGAME
-[03:33:55] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
-[03:33:55] [Server thread/INFO]: [CardService] Using random BINGO card seed: 5515967889447117653
-[03:33:55] [Server thread/INFO]: Set lobby spawnpoint to ([0, -18, 1], -180.0)
-[03:33:55] [Server thread/INFO]: Set menu position to ( 0.000E+0 -1.800E+1 -5.000E+0  1.000E+0)
-[03:33:55] [Server thread/INFO]: [MenuController] Spawning lobby menu at ( 0.000E+0 -1.800E+1 -5.000E+0)
-[03:33:55] [Server thread/INFO]: [MenuController] Locating team entities...
-[03:33:56] [Server thread/INFO]: [MenuController] Locating team entities... - done in 170.983303ms!
-[03:33:56] [Server thread/INFO]: Resetting worlds... - done in 439.938878ms!
-[03:33:56] [Server thread/INFO]: Re-drawing map_null for team null (71.709960ms)
-[03:34:26] [Server thread/INFO]: [Not Secure] <JustMaty> espera
-[03:34:28] [Server thread/INFO]: [Not Secure] <JustMaty> probemos otro
-[03:34:31] [Server thread/INFO]: [Not Secure] <JustMaty> esta bueno
-[03:34:40] [Server thread/INFO]: [Not Secure] <JustMaty> dice que los items que consigas p rimero ya no los podra conseguir el otro
-[03:34:44] [Server thread/INFO]: [Not Secure] <JustMaty> o sea son de un solo uso vaya
-[03:34:47] [Server thread/INFO]: Creating a map for team bingo_pink - mapId=47
-[03:34:59] [Server thread/INFO]: [Not Secure] <JustMaty> si
-[03:35:06] [Server thread/INFO]: [Not Secure] <JustMaty> y despues bingo completo
-[03:35:18] [Server thread/INFO]: [Not Secure] <JustMaty> pero
-[03:35:21] [Server thread/INFO]: [Not Secure] <JustMaty> y el chiste
-[03:35:28] [Server thread/INFO]: Creating a map for team bingo_yellow - mapId=48
-[03:35:28] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:35:32] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
-[03:35:32] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:35:35] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
-[03:35:35] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:35:45] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
-[03:35:45] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:35:55] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
-[03:35:55] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:35:55] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
-[03:35:55] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:35:56] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
-[03:35:56] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:35:56] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
-[03:35:56] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:35:56] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
-[03:35:57] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:35:57] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
-[03:35:57] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:35:58] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
-[03:35:58] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:36:04] [Server thread/INFO]: [Not Secure] <JustMaty> full bingo keep inventory
-[03:36:06] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
-[03:36:06] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:36:07] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
-[03:36:07] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:36:11] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
-[03:36:11] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:36:12] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
-[03:36:13] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:36:24] [Server thread/INFO]: [JustMaty: Set 'Goal' = Full Card [Items]]
-[03:36:24] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
-[03:36:24] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
-[03:36:26] [Server thread/INFO]: GameState changed: PREGAME -> STARTING
-[03:36:26] [Server thread/INFO]: [SpreadPlayers] Initialized in dimension minecraft:overworld with coordinateScale=1.0, logicalHeight=384, bottomY=-64, seaLevel=63
-[03:36:26] [Server thread/INFO]: Spawning team bingo_pink near chunk (-1, 6)
-[03:36:26] [Server thread/INFO]: Spawning team bingo_yellow near chunk (1, -6)
-[03:36:26] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-[03:36:26] [Server thread/INFO]:   BINGO Start!
-[03:36:26] [Server thread/INFO]:   Mode: Lockout
-[03:36:26] [Server thread/INFO]:   Features: KeepInv, PvP
-[03:36:26] [Server thread/INFO]:   Goal: Full Card [Items]
-[03:36:26] [Server thread/INFO]:   Difficulty: 0, 0, 0, 9, 16
-[03:36:26] [Server thread/INFO]:   Filter: Items
-[03:36:26] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-[03:36:27] [Server thread/INFO]: Skipping chunk (-5, 6) which contains no valid spawn locations
-[03:36:27] [Server thread/INFO]: Using spawn position [28, 76, -82] for bingo_yellow
-[03:36:28] [Server thread/INFO]: Skipping chunk (-6, 6) which contains no valid spawn locations
-[03:36:28] [Server thread/INFO]: Skipping chunk (-7, 6) which contains no valid spawn locations
-[03:36:28] [Server thread/INFO]: Using spawn position [-126, 114, 97] for bingo_pink
-[03:36:28] [Server thread/INFO]: GameState changed: STARTING -> PRELOADING
-[03:36:28] [Server thread/INFO]: [SpawnPreloadingController] Pre-generating 162 chunks within a view distance of 4...
-[03:36:37] [Server thread/INFO]: [SpawnPreloadingController] Finished preloading spawn chunks in 8.990570887s
-[03:36:37] [Server thread/INFO]: GameState changed: PRELOADING -> LOADING
-[03:36:37] [Server thread/INFO]: Waiting until all players have loaded spawn terrain...
-[03:36:38] [Server thread/INFO]: Waiting until all players have loaded spawn terrain... Done! (65.505598ms)
-[03:36:38] [Server thread/INFO]: GameState changed: LOADING -> COUNTDOWN
-[03:36:45] [Server thread/INFO]: GameState changed: COUNTDOWN -> PLAYING
-[03:36:52] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:dirt
-[03:36:52] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=1, lines=0, cards=0)
-[03:37:20] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:oak_pressure_plate
-[03:37:20] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=2, lines=0, cards=0)
+[01:39:18] [Server thread/INFO]: JustMaty joined the game
+[01:39:19] [IO-Worker-14/INFO]: [StatsSyncController] Broadcasting stats hash to player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[01:39:20] [IO-Worker-17/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92021cb0-1f37-3608-ba08-49d9bf29a1bd
+[01:39:20] [IO-Worker-26/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
+[01:39:20] [IO-Worker-17/INFO]: [StatsSyncController] Broadcasting 10 known gameIds to the client
+[01:39:36] [Server thread/INFO]: [ScoredItemCheck] pekilemo got yet-another-minecraft-bingo:challenge/many_sugar_cane
+[01:39:36] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=13, lines=0, cards=0)
