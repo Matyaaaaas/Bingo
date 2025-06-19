@@ -974,3 +974,19 @@ java.lang.NullPointerException: Cannot invoke "net.fabricmc.fabric.impl.networki
 [01:39:20] [IO-Worker-17/INFO]: [StatsSyncController] Broadcasting 10 known gameIds to the client
 [01:39:36] [Server thread/INFO]: [ScoredItemCheck] pekilemo got yet-another-minecraft-bingo:challenge/many_sugar_cane
 [01:39:36] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=13, lines=0, cards=0)
+[01:42:11] [Server thread/INFO]: [ScoredItemCheck] pekilemo got yet-another-minecraft-bingo:challenge/many_clay_balls
+[01:42:11] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=14, lines=1, cards=0)
+[01:43:25] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:polished_andesite
+[01:43:25] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=11, lines=0, cards=0)
+[01:43:52] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:polished_andesite
+[01:43:52] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=14, lines=0, cards=0)
+[01:45:08] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:polished_andesite
+[01:45:08] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=15, lines=1, cards=0)
+[01:45:24] [Server thread/INFO]: [ScoredItemCheck] JustMaty got minecraft:coal_block
+[01:45:24] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=15, lines=0, cards=0)
+[01:45:29] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:pumpkin
+[01:45:29] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=12, lines=0, cards=0)
+[01:47:00] [Server thread/INFO]: [ScoredItemCheck] pekilemo got minecraft:brick_wall
+[01:47:00] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_green: TeamScore(items=16, lines=2, cards=0)
+[01:50:10] [Server thread/INFO]: [ScoredItemCheck] Elira_Ecriet got minecraft:shears
+[01:50:10] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=13, lines=0, cards=0)
